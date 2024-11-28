@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;61.Max7219_7-SEG_Display_Test2_SPI1/60.Max7219_7-SEG_Display_Test.ioc&apos; to &apos;61.Max7219_7-SEG_Display_Test2_SPI1.ioc&apos;" description="Rename resource &apos;60.Max7219_7-SEG_Display_Test.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="60.Max7219_7-SEG_Display_Test.ioc" name="61.Max7219_7-SEG_Display_Test2_SPI1.ioc" stamp="1724123556308" updateReferences="true"/>
+</session>

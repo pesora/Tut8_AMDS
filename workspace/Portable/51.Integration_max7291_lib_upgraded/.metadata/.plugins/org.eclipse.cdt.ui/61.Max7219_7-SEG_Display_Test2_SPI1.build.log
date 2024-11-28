@@ -1,0 +1,16 @@
+15:30:28 **** Incremental Build of configuration Debug for project 61.Max7219_7-SEG_Display_Test2_SPI1 ****
+make -j12 all 
+arm-none-eabi-gcc -o "61.Max7219_7-SEG_Display_Test2_SPI1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Sunshine\Tut4_Test\2.IntegrationTest_F429ZI\workspace\40.Integration_changed_7SEG_driver_to_Max7219\61.Max7219_7-SEG_Display_Test2_SPI1\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="61.Max7219_7-SEG_Display_Test2_SPI1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 61.Max7219_7-SEG_Display_Test2_SPI1.elf
+ 
+arm-none-eabi-size  61.Max7219_7-SEG_Display_Test2_SPI1.elf 
+arm-none-eabi-objdump -h -S 61.Max7219_7-SEG_Display_Test2_SPI1.elf  > "61.Max7219_7-SEG_Display_Test2_SPI1.list"
+   text	   data	    bss	    dec	    hex	filename
+  16808	    104	   3392	  20304	   4f50	61.Max7219_7-SEG_Display_Test2_SPI1.elf
+Finished building: default.size.stdout
+ 
+Finished building: 61.Max7219_7-SEG_Display_Test2_SPI1.list
+ 
+
+15:30:29 Build Finished. 0 errors, 0 warnings. (took 1s.410ms)
+

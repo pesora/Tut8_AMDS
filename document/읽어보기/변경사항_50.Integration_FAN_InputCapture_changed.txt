@@ -1,0 +1,31 @@
+//여러가지 순조롭지 못함 점 양해 부탁드립니다.
+//문의 사항에 대한 답변입니다.
+
+1),2) 서수석님께 문의하십시오
+
+3) BUZ_MineDet Pin 동작 설명 기능 부탁 드립니다.
+   --> 필요 없습니다.
+   
+4) 제어보드 ERROR 표시 ERROR_LED 추가 요청 드립니다. 
+   기존 모델 동일하게 PF14 Port 설정 바랍니다.
+   --> PF14를 ERROR_LED로 사용하면 되겠네요.
+   
+5) USER_BTN PC13 MCU Port 용도를 설명 부탁 드립니다.
+   --> A/S때 테스트용 버턴으로 PCB에 임의의 위치에 배치하면 됩니다
+   (설치 현장에서 필요합니다)
+   
+6) LD1_GRN, LD2_BLU, LD3_RED MCU Output Port 사용 동작 설명 부탁 드립니다.
+   --> 불필요합니다.
+   
+7) SWO 기능 추가를 위하여 FAN IC 신호를 다음과 같이 변경합니다.
+   SWO는 이제 PB3를 사용하면 되겠네요
+   
+변경전)
+   FAN1 : TIM2_CH1_IC1 (PA0)
+   FAN2 : TIM2_CH2_IC2 (PB3)
+   FAN3 : TIM2_CH3_IC3 (PB10)
+   
+변경후)
+   FAN1 : TIM2_CH1_IC1 (PA0)
+   FAN2 : TIM2_CH3_IC2 (PB10)   (FAN3에 연결되던 것을 FAN2에 연결)
+   FAN3 : TIM2_CH4_IC3 (PB11) (FAN2에 연결되던 것을 FAN3에 연결)
