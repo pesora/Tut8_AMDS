@@ -160,7 +160,7 @@ int main(void)
 
   HAL_TIM_Base_Start_IT(&htim6);
 
- printf("\n51.Integration_max7291_lib_upgraded\n");
+ printf("\n51A.Integration_i2c_scan_added\n");
 
  //Send_Portable_Status()
  setbuf(stdout,NULL);
