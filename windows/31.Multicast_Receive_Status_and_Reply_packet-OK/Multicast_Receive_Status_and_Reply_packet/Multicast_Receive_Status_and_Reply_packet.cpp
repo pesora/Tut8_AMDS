@@ -96,7 +96,6 @@ int main()
     printf("     * To request MineDet_Num : enter Number from 0 to 9\n");
     printf("     * To receive Status Data : press 'User_Btn' on the Nucleo Board\n\n");
 
-
     if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0)
         ErrorHandling("WSAStartup() error!");
 
@@ -116,9 +115,10 @@ int main()
     joinAdr.imr_multiaddr.s_addr = inet_addr(multicastIP);
     joinAdr.imr_interface.s_addr = htonl(INADDR_ANY);
 
-    if (setsockopt(hRecvSock, IPPROTO_IP, IP_ADD_MEMBERSHIP,
-        (const char*)&joinAdr, sizeof(joinAdr)) == SOCKET_ERROR)
+    if (setsockopt(hRecvSock, IPPROTO_IP, IP_ADD_MEMBERSHIP, (const char*)&joinAdr, sizeof(joinAdr)) == SOCKET_ERROR)
         ErrorHandling("setsockopt() error");
+    else
+        printf("Joined multicast group successfully.\n");
 
     // Sender setup
     hSendSock = socket(PF_INET, SOCK_DGRAM, 0);
