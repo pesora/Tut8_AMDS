@@ -140,7 +140,6 @@ int main(void)
   MX_TIM6_Init();
   MX_I2C3_Init();
   MX_SPI3_Init();
-  MX_TIM5_Init();
   /* USER CODE BEGIN 2 */
   uTimer_Init();
   LED_Init();
@@ -169,9 +168,15 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
 
+
  uint8_t toggle = 0;
   while (1)
   {
+//	  Buzzer_On();
+//	  HAL_Delay(1000);
+//	  Buzzer_Off();
+//	  HAL_Delay(1000);
+
     ethernetif_input(&gnetif);
     sys_check_timeouts();
 
@@ -181,18 +186,19 @@ int main(void)
     {
       toggle = !toggle;
 
-      if(uTimer_CheckTimeOut((uint8_t)uTimerDebounce) == TRUE)
-      {
-        //if(toggle==1) Buzzer_On();
-        //else Buzzer_Off();
+        if(toggle==1) {
+        	status.Charger  = 1;
+        	Buzzer_On();
+        }
+        else {
+        	status.Charger  = 0;
+        	Buzzer_Off();
+        }
 
         //Send_Portable_Status();
 
-    	i2c_scan();
-
         key_pressed = 0;
-      }
-    }
+     }
 
     /* USER CODE END WHILE */
 

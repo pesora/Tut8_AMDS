@@ -196,12 +196,12 @@ void Display_DP_LED(void)
 void Alarm_MineDet_BUZ(void)
 {
    if(MineDet_Num == 0) {
-     Buzzer_Off();
-     HAL_GPIO_WritePin(BUZ_GPIO_Port, BUZ_Pin, SET);
+     //Buzzer_Off();
+     HAL_GPIO_WritePin(BUZ_GPIO_Port, BUZ_Pin, RESET);
    }
    else {
-     Buzzer_On();
-     HAL_GPIO_WritePin(BUZ_GPIO_Port, BUZ_Pin, RESET);
+     //Buzzer_On();
+     HAL_GPIO_WritePin(BUZ_GPIO_Port, BUZ_Pin, SET);
    }
 }
 

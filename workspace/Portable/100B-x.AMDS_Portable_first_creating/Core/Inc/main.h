@@ -97,8 +97,8 @@ void Error_Handler(void);
 #define RMII_REF_CLK_GPIO_Port GPIOA
 #define RMII_MDIO_Pin GPIO_PIN_2
 #define RMII_MDIO_GPIO_Port GPIOA
-#define TIM5_CH4_BUZ_Pin GPIO_PIN_3
-#define TIM5_CH4_BUZ_GPIO_Port GPIOA
+#define BUZ_Pin GPIO_PIN_3
+#define BUZ_GPIO_Port GPIOA
 #define RMII_CRS_DV_Pin GPIO_PIN_7
 #define RMII_CRS_DV_GPIO_Port GPIOA
 #define RMII_RXD0_Pin GPIO_PIN_4
@@ -113,8 +113,6 @@ void Error_Handler(void);
 #define LED_CHG_R_GPIO_Port GPIOF
 #define LED_CHG_G_Pin GPIO_PIN_12
 #define LED_CHG_G_GPIO_Port GPIOF
-#define BUZ_Pin GPIO_PIN_13
-#define BUZ_GPIO_Port GPIOF
 #define RUN_LED_Pin GPIO_PIN_15
 #define RUN_LED_GPIO_Port GPIOF
 #define TIM1_CH1_PWM1_Pin GPIO_PIN_9
