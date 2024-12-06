@@ -46,6 +46,7 @@ Console_Status_t Console_Status;
 void Read_Temp_Value(void)
 {
   HMTP_Read_Temp_Value();
+
   if(Cmd_Received == 0) {
 	  Temp_Val1 = (float)HMTP_Data[0].fTemp;
 	  Temp_Val2 = (float)HMTP_Data[1].fTemp;
@@ -75,12 +76,24 @@ void Read_PSU_Status(void)
 	PSU_Status2 = HAL_GPIO_ReadPin(INPUT_PSU2_GPIO_Port, INPUT_PSU2_Pin);
 }
 
+
+//NUCLEO_BOARD
 void Read_DP_Status(void)
 {
   DP_Status1 = HAL_GPIO_ReadPin(INPUT_DP1_GPIO_Port, INPUT_DP1_Pin);
   DP_Status2 = HAL_GPIO_ReadPin(INPUT_DP2_GPIO_Port, INPUT_DP2_Pin);
   DP_Status3 = HAL_GPIO_ReadPin(INPUT_DP3_GPIO_Port, INPUT_DP3_Pin);
 }
+
+
+//AMDS_BOARD
+//void Read_DP_Status(void)
+//{
+//  DP_Status1 = HAL_GPIO_ReadPin(INPUT_DP_LED1_GPIO_Port, INPUT_DP_LED1_Pin);
+//  DP_Status2 = HAL_GPIO_ReadPin(INPUT_DP_LED2_GPIO_Port, INPUT_DP_LED2_Pin);
+//  DP_Status3 = HAL_GPIO_ReadPin(INPUT_DP_LED3_GPIO_Port, INPUT_DP_LED3_Pin);
+//}
+
 
 void Read_MineDet_Number(void)
 {

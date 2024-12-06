@@ -2062,3 +2062,8 @@
 2024-12-06 14:41:56,428 [INFO] WebApp:220 - Starting web application
 2024-12-06 14:41:56,429 [INFO] WebApp:578 - Web application path used C:\ST\STM32CubeIDE_1.16.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.0.202406281431\db\plugins\mcufinder\reactClient1\index.html
 2024-12-06 14:43:30,840 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-12-06 14:46:24,413 [INFO] Activator:176 - 
+
+
+2024-12-06 14:46:24,417 [INFO] Activator:177 - !SESSION log4j initialized
+2024-12-06 14:46:30,914 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 

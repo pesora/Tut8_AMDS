@@ -193,6 +193,7 @@ void Display_DP_LED(void)
   }
 }
 
+//NUCLEO board
 void Alarm_MineDet_BUZ(void)
 {
    if(MineDet_Num == 0) {

@@ -79,7 +79,7 @@ void Display_Temp_LED(void)
 
 }
 
-void Display_FAN1_LED(void)
+void Display_FAN_LED(void)
 {
    if(Console_Status.Temp_Range == 0)  //Normal -> GRN
    {
@@ -99,66 +99,66 @@ void Display_FAN1_LED(void)
 
 }
 
-//void Display_FAN1_LED(void)
-//{
-//
-//  if(Console_Status.FAN1 == 0)       //Normal -> GRN
-//   {
-//     HAL_GPIO_WritePin(LED_FAN1_R_GPIO_Port, LED_FAN1_R_Pin, SET);
-//     HAL_GPIO_WritePin(LED_FAN1_G_GPIO_Port, LED_FAN1_G_Pin, RESET);
-//   }
-//   else if(Console_Status.FAN1 == 1) //Danger -> RED
-//   {
-//     HAL_GPIO_WritePin(LED_FAN1_R_GPIO_Port, LED_FAN1_R_Pin, RESET);
-//     HAL_GPIO_WritePin(LED_FAN1_G_GPIO_Port, LED_FAN1_G_Pin, SET);
-//   }
-//   else if(Console_Status.FAN1 == 2) //Warning -> YEL
-//   {
-//     HAL_GPIO_WritePin(LED_FAN1_R_GPIO_Port, LED_FAN1_R_Pin, RESET);
-//     HAL_GPIO_WritePin(LED_FAN1_G_GPIO_Port, LED_FAN1_G_Pin, RESET);
-//   }
-//
-//}
-//
-//void Display_FAN2_LED(void)
-//{
-//   if(Console_Status.FAN2 == 0)       //Normal -> GRN
-//   {
-//     HAL_GPIO_WritePin(LED_FAN2_R_GPIO_Port, LED_FAN2_R_Pin, SET);
-//     HAL_GPIO_WritePin(LED_FAN2_G_GPIO_Port, LED_FAN2_G_Pin, RESET);
-//   }
-//   else if(Console_Status.FAN2 == 1) //Danger -> RED
-//   {
-//     HAL_GPIO_WritePin(LED_FAN2_R_GPIO_Port, LED_FAN2_R_Pin, RESET);
-//     HAL_GPIO_WritePin(LED_FAN2_G_GPIO_Port, LED_FAN2_G_Pin, SET);
-//   }
-//   else if(Console_Status.FAN2 == 2) //Warning -> YEL
-//   {
-//     HAL_GPIO_WritePin(LED_FAN2_R_GPIO_Port, LED_FAN2_R_Pin, RESET);
-//     HAL_GPIO_WritePin(LED_FAN2_G_GPIO_Port, LED_FAN2_G_Pin, RESET);
-//   }
-//
-//}
+void Display_FAN1_LED(void)
+{
+
+  if(Console_Status.FAN1 == 0)       //Normal -> GRN
+   {
+     HAL_GPIO_WritePin(LED_FAN1_R_GPIO_Port, LED_FAN1_R_Pin, SET);
+     HAL_GPIO_WritePin(LED_FAN1_G_GPIO_Port, LED_FAN1_G_Pin, RESET);
+   }
+   else if(Console_Status.FAN1 == 1) //Danger -> RED
+   {
+     HAL_GPIO_WritePin(LED_FAN1_R_GPIO_Port, LED_FAN1_R_Pin, RESET);
+     HAL_GPIO_WritePin(LED_FAN1_G_GPIO_Port, LED_FAN1_G_Pin, SET);
+   }
+   else if(Console_Status.FAN1 == 2) //Warning -> YEL
+   {
+     HAL_GPIO_WritePin(LED_FAN1_R_GPIO_Port, LED_FAN1_R_Pin, RESET);
+     HAL_GPIO_WritePin(LED_FAN1_G_GPIO_Port, LED_FAN1_G_Pin, RESET);
+   }
+
+}
+
+void Display_FAN2_LED(void)
+{
+   if(Console_Status.FAN2 == 0)       //Normal -> GRN
+   {
+     HAL_GPIO_WritePin(LED_FAN2_R_GPIO_Port, LED_FAN2_R_Pin, SET);
+     HAL_GPIO_WritePin(LED_FAN2_G_GPIO_Port, LED_FAN2_G_Pin, RESET);
+   }
+   else if(Console_Status.FAN2 == 1) //Danger -> RED
+   {
+     HAL_GPIO_WritePin(LED_FAN2_R_GPIO_Port, LED_FAN2_R_Pin, RESET);
+     HAL_GPIO_WritePin(LED_FAN2_G_GPIO_Port, LED_FAN2_G_Pin, SET);
+   }
+   else if(Console_Status.FAN2 == 2) //Warning -> YEL
+   {
+     HAL_GPIO_WritePin(LED_FAN2_R_GPIO_Port, LED_FAN2_R_Pin, RESET);
+     HAL_GPIO_WritePin(LED_FAN2_G_GPIO_Port, LED_FAN2_G_Pin, RESET);
+   }
+
+}
 
 
-//void Display_PSU_LED(void)
-//{
-//  if(Console_Status.PSU == 0)       //Normal -> GRN
-//  {
-//    HAL_GPIO_WritePin(LED_PSU_R_GPIO_Port, LED_PSU_R_Pin, SET);
-//    HAL_GPIO_WritePin(LED_PSU_G_GPIO_Port, LED_PSU_G_Pin, RESET);
-//  }
-//  else if(Console_Status.PSU == 1)  //Danger -> RED
-//  {
-//    HAL_GPIO_WritePin(LED_PSU_R_GPIO_Port, LED_PSU_R_Pin, RESET);
-//    HAL_GPIO_WritePin(LED_PSU_G_GPIO_Port, LED_PSU_G_Pin, SET);
-//  }
-//  else if(Console_Status.PSU == 2)  //Warning -> YEL
-//  {
-//    HAL_GPIO_WritePin(LED_PSU_R_GPIO_Port, LED_PSU_R_Pin, RESET);
-//    HAL_GPIO_WritePin(LED_PSU_G_GPIO_Port, LED_PSU_G_Pin, RESET);
-//  }
-//}
+void Display_PSU_LED(void)
+{
+  if(Console_Status.PSU == 0)       //Normal -> GRN
+  {
+    HAL_GPIO_WritePin(LED_PSU_R_GPIO_Port, LED_PSU_R_Pin, SET);
+    HAL_GPIO_WritePin(LED_PSU_G_GPIO_Port, LED_PSU_G_Pin, RESET);
+  }
+  else if(Console_Status.PSU == 1)  //Danger -> RED
+  {
+    HAL_GPIO_WritePin(LED_PSU_R_GPIO_Port, LED_PSU_R_Pin, RESET);
+    HAL_GPIO_WritePin(LED_PSU_G_GPIO_Port, LED_PSU_G_Pin, SET);
+  }
+  else if(Console_Status.PSU == 2)  //Warning -> YEL
+  {
+    HAL_GPIO_WritePin(LED_PSU_R_GPIO_Port, LED_PSU_R_Pin, RESET);
+    HAL_GPIO_WritePin(LED_PSU_G_GPIO_Port, LED_PSU_G_Pin, RESET);
+  }
+}
 
 void Display_DP_LED(void)
 {
@@ -192,7 +192,7 @@ void Display_DP_LED(void)
     HAL_GPIO_WritePin(LED_DP3_G_GPIO_Port, LED_DP3_G_Pin, SET);
   }
 }
-
+//AMDS board
 void Alarm_MineDet_BUZ(void)
 {
    if(MineDet_Num == 0) {
@@ -238,7 +238,7 @@ void Display_SOC_7SEG(void)
 
 void Print_Read_Status(void)
 {
-  //printf("PSU(%d %d) : ", PSU_Status1, PSU_Status2);
+  printf("PSU(%d %d) : ", PSU_Status1, PSU_Status2);
   printf("DP(%d %d %d) : ", DP_Status1, DP_Status2, DP_Status3);
   printf("Buz(%d) : ", MineDet_Num);
   printf("CHG(%d) ", Charger);

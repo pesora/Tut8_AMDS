@@ -22,12 +22,12 @@ float Temp_Val1;
 float Temp_Val2;
 uint8_t FAN_Sense1;
 uint8_t FAN_Sense2;
-//uint8_t FAN_Sense3;
-//uint8_t FAN_Sense4;
-//uint8_t FAN_Sense5;
-//uint8_t FAN_Sense6;
-//uint8_t PSU_Status1;
-//uint8_t PSU_Status2;
+uint8_t FAN_Sense3;
+uint8_t FAN_Sense4;
+uint8_t FAN_Sense5;
+uint8_t FAN_Sense6;
+uint8_t PSU_Status1;
+uint8_t PSU_Status2;
 uint8_t DP_Status1;
 uint8_t DP_Status2;
 uint8_t DP_Status3;
@@ -64,24 +64,36 @@ void Read_FAN_Status(void)
 
 	FAN_Sense1 = Fan[0].err;
 	FAN_Sense2 = Fan[1].err;
-//	FAN_Sense3 = Fan[2].err;
-//	FAN_Sense4 = Fan[3].err;
-//	FAN_Sense5 = Fan[4].err;
-//	FAN_Sense6 = Fan[5].err;
+	FAN_Sense3 = Fan[2].err;
+	FAN_Sense4 = Fan[3].err;
+	FAN_Sense5 = Fan[4].err;
+	FAN_Sense6 = Fan[5].err;
 }
 
-//void Read_PSU_Status(void)
+void Read_PSU_Status(void)
+{
+	PSU_Status1 = HAL_GPIO_ReadPin(INPUT_PSU1_GPIO_Port, INPUT_PSU1_Pin);
+	PSU_Status2 = HAL_GPIO_ReadPin(INPUT_PSU2_GPIO_Port, INPUT_PSU2_Pin);
+}
+
+
+//NUCLEO_BOARD
+//void Read_DP_Status(void)
 //{
-//	PSU_Status1 = HAL_GPIO_ReadPin(INPUT_PSU1_GPIO_Port, INPUT_PSU1_Pin);
-//	PSU_Status2 = HAL_GPIO_ReadPin(INPUT_PSU2_GPIO_Port, INPUT_PSU2_Pin);
+//  DP_Status1 = HAL_GPIO_ReadPin(INPUT_DP1_GPIO_Port, INPUT_DP1_Pin);
+//  DP_Status2 = HAL_GPIO_ReadPin(INPUT_DP2_GPIO_Port, INPUT_DP2_Pin);
+//  DP_Status3 = HAL_GPIO_ReadPin(INPUT_DP3_GPIO_Port, INPUT_DP3_Pin);
 //}
 
+
+//AMDS_BOARD
 void Read_DP_Status(void)
 {
   DP_Status1 = HAL_GPIO_ReadPin(INPUT_DP_LED1_GPIO_Port, INPUT_DP_LED1_Pin);
   DP_Status2 = HAL_GPIO_ReadPin(INPUT_DP_LED2_GPIO_Port, INPUT_DP_LED2_Pin);
   DP_Status3 = HAL_GPIO_ReadPin(INPUT_DP_LED3_GPIO_Port, INPUT_DP_LED3_Pin);
 }
+
 
 void Read_MineDet_Number(void)
 {
@@ -208,69 +220,68 @@ uint8_t GetTempStatus(void)
   return Temp_Status;
 }
 
-
 static uint8_t GetFanStatus1(void)
 {
   uint8_t Fan_AddStatus = 0;
   uint8_t Fan_Status1 = 0;
 
- Fan_AddStatus = FAN_Sense1 + FAN_Sense2;
+ Fan_AddStatus = FAN_Sense1 + FAN_Sense2 + FAN_Sense3;
  if(Fan_AddStatus == 0)
  {
    Fan_Status1 = 0;    //Good
  }
- else if(Fan_AddStatus == 2)
+ else if(Fan_AddStatus == 3)
  {
    Fan_Status1 = 1;    //3 Fans abnormal
  }
  else
  {
-   Fan_Status1 = 1;    //1 Fan  Warning
+   Fan_Status1 = 2;    //1 or 2 Fans Warning
  }
 
   return Fan_Status1;
 }
 
-//static uint8_t GetFanStatus2(void)
-//{
-//  uint8_t Fan_AddStatus = 0;
-//  uint8_t Fan_Status2 = 0;
-//
-//  Fan_AddStatus = FAN_Sense4 + FAN_Sense5 + FAN_Sense6;
-// if(Fan_AddStatus == 0)
-// {
-//   Fan_Status2 = 0;    //Good
-// }
-// else if(Fan_AddStatus == 3)
-// {
-//   Fan_Status2 = 1;    //3 Fans abnormal
-// }
-// else
-// {
-//   Fan_Status2 = 2;    //1 or 2 Fans Warning
-// }
-//
-//  return Fan_Status2;
-//}
+static uint8_t GetFanStatus2(void)
+{
+  uint8_t Fan_AddStatus = 0;
+  uint8_t Fan_Status2 = 0;
 
-//static uint8_t GetPSUStatus(void)
-//{
-//  uint8_t PSUStatus;
-//  if(PSU_Status1 == 0 && PSU_Status2 == 0)
-//  {
-//      PSUStatus = 0;  //PSU1 and PSU2 is Good
-//  }
-//  else if(PSU_Status1 == 1 && PSU_Status2 == 1)
-//  {
-//    PSUStatus = 1;    //One of two PSU is Abnormal
-//  }
-//  else
-//  {
-//    PSUStatus = 2;    //Two PSU is Abnoraml
-//  }
-//
-//  return PSUStatus;
-//}
+  Fan_AddStatus = FAN_Sense4 + FAN_Sense5 + FAN_Sense6;
+ if(Fan_AddStatus == 0)
+ {
+   Fan_Status2 = 0;    //Good
+ }
+ else if(Fan_AddStatus == 3)
+ {
+   Fan_Status2 = 1;    //3 Fans abnormal
+ }
+ else
+ {
+   Fan_Status2 = 2;    //1 or 2 Fans Warning
+ }
+
+  return Fan_Status2;
+}
+
+static uint8_t GetPSUStatus(void)
+{
+  uint8_t PSUStatus;
+  if(PSU_Status1 == 0 && PSU_Status2 == 0)
+  {
+      PSUStatus = 0;  //PSU1 and PSU2 is Good
+  }
+  else if(PSU_Status1 == 1 && PSU_Status2 == 1)
+  {
+    PSUStatus = 1;    //One of two PSU is Abnormal
+  }
+  else
+  {
+    PSUStatus = 2;    //Two PSU is Abnoraml
+  }
+
+  return PSUStatus;
+}
 
 
 //Portable LED Status
@@ -280,8 +291,8 @@ void Store_Portable_Status(void)
   Console_Status.Temp2 = Temp_Val2;
   Console_Status.Temp_Range = GetTempStatus();
   Console_Status.FAN1  = GetFanStatus1();
-  //Console_Status.FAN2  = 0; //GetFanStatus2();	//미사용
-  //Console_Status.PSU   = GetPSUStatus();
+  Console_Status.FAN2  = GetFanStatus2();
+  Console_Status.PSU   = GetPSUStatus();
   Console_Status.DP1   = DP_Status1;
   Console_Status.DP2   = DP_Status2;
   Console_Status.DP3   = DP_Status3;
@@ -291,13 +302,13 @@ void Store_Portable_Status(void)
 
 void Print_Display_Status(void)
 {
-  printf("TVal[%.1f %.1f] -> Temp[%d], FAN[%d], DP[%d %d %d], MD[%d], CHG[%d]\n",
+  printf("TVal[%.1f %.1f] -> Temp[%d], FAN[%d %d], PSU[%d], DP[%d %d %d], MD[%d], CHG[%d]\n",
       Console_Status.Temp1,
       Console_Status.Temp2,
       Console_Status.Temp_Range,
       Console_Status.FAN1,
-      //Console_Status.FAN2,
-      //Console_Status.PSU,
+      Console_Status.FAN2,
+      Console_Status.PSU,
       Console_Status.DP1,
       Console_Status.DP2,
       Console_Status.DP3,
