@@ -160,7 +160,7 @@ int main(void)
 
   HAL_TIM_Base_Start_IT(&htim6);
 
- printf("\nC102.AMDS_Console_UAB_Switch_added\n");
+ printf("\nC103.AMDS_Console_Renaming_variable_name\n");
 
  //Send_Portable_Status()
  setbuf(stdout,NULL);

@@ -1,0 +1,4 @@
+../Lib/buzzer.c:16:6:Buzzer_Init	1
+../Lib/buzzer.c:22:6:Buzzer_On	1
+../Lib/buzzer.c:27:6:Buzzer_Off	1
+../Lib/buzzer.c:32:6:Set_Buzzer_Frequency	1

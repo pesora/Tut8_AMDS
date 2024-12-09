@@ -1,0 +1,3 @@
+../User/usb_switch.c:15:6:Read_Usb_Switch	1
+../User/usb_switch.c:21:6:Output_Usb_Switch	1
+../User/usb_switch.c:29:6:USB_Selec_Switch	1
