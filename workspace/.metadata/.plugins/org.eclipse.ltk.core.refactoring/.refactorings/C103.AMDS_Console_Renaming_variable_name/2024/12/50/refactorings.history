@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;C103.AMDS_Console_Renaming_variable_name/C102.AMDS_Console_UAB_Switch_added.ioc&apos; to &apos;C103.AMDS_Console_Renaming_variable_name.ioc&apos;" description="Rename resource &apos;C102.AMDS_Console_UAB_Switch_added.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="C102.AMDS_Console_UAB_Switch_added.ioc" name="C103.AMDS_Console_Renaming_variable_name.ioc" stamp="1733735380123" updateReferences="false"/>
+</session>
