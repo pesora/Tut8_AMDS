@@ -1,0 +1,10 @@
+../Lib/udp_server.c:54:6:configure_mac_filter	24	static
+../Lib/udp_server.c:67:6:udpServer_init	16	static
+../Lib/udp_server.c:97:6:udp_receive_callback	64	static
+../Lib/udp_server.c:121:9:UDP_Get_MineDetNum	4	static
+../Lib/udp_server.c:126:6:print_request_packet	16	static
+../Lib/udp_server.c:139:6:print_reply_packet	16	static
+../Lib/udp_server.c:154:6:udp_send_to_client	40	static
+../Lib/udp_server.c:186:6:join_multicast_group	16	static
+../Lib/udp_server.c:196:6:udp_send_multicast_msg	40	static
+../Lib/udp_server.c:237:6:udp_send_multicast	32	static

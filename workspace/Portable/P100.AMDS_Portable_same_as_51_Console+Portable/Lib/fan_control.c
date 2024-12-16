@@ -130,15 +130,15 @@ uint8_t FAN_Read_RPM(void)
 	 case 1:
 		  if(uTimer_CheckTimeOut((uint8_t)uTimerFanCheck) == TRUE)
 		  {
-        Fan[ch].err = 1;
-        step = 2;
-        break;
+			Fan[ch].err = 1;
+			step = 2;
+			break;
 		  }
 		  if(capture_done[ch] == 1 )
 		  {
 		    Fan[ch].err = 0;
-        step = 2;
-        break;
+			step = 2;
+			break;
 		  }
 
       step = 1;
@@ -159,14 +159,14 @@ uint8_t FAN_Read_RPM(void)
 		if(ch>(MAX_FAN_QTY-1))
 		{
 			//copy the result for debugging
-		  for(int i=0; i<MAX_FAN_QTY; i++)
-		  {
-		    DbgFan[i].rpm = Fan[i].rpm;
-		    DbgFan[i].err = Fan[i].err;
-		  }
-		  //clear frequency
+			for(int i=0; i<MAX_FAN_QTY; i++)
+			{
+				DbgFan[i].rpm = Fan[i].rpm;
+				DbgFan[i].err = Fan[i].err;
+			}
+			//clear frequency
 			for(int i=0; i<MAX_FAN_QTY; i++) { frequency[i] = 0; }
-      ch = 0;
+			ch = 0;
 			ret = 1;
 		}
 		//HAL_Delay(10);
@@ -299,13 +299,13 @@ void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim)
 
   if ((htim->Instance == TIM2) && (htim->Channel == HAL_TIM_ACTIVE_CHANNEL_3) && (pwm_ch == 1))
   {
-    TIM_IC_Capture(htim, 1, TIM_CHANNEL_2);
+    TIM_IC_Capture(htim, 1, TIM_CHANNEL_3);
     return;
   }
 
   if ((htim->Instance == TIM2) && (htim->Channel == HAL_TIM_ACTIVE_CHANNEL_4) && (pwm_ch == 2))
   {
-    TIM_IC_Capture(htim, 2, TIM_CHANNEL_3);
+    TIM_IC_Capture(htim, 2, TIM_CHANNEL_4);
     return;
   }
 

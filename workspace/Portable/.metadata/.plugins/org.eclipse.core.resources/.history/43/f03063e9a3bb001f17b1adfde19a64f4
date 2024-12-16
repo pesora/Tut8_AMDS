@@ -1,0 +1,12 @@
+../User/display.c:20:6:LED_Init	2
+../User/display.c:35:6:LED_SelfTest	2
+../User/display.c:56:6:Display_Temp_LED	5
+../User/display.c:82:6:Display_FAN_LED	4
+../User/display.c:102:6:Display_FAN1_LED	4
+../User/display.c:123:6:Display_FAN2_LED	4
+../User/display.c:144:6:Display_PSU_LED	4
+../User/display.c:163:6:Display_DP_LED	7
+../User/display.c:197:6:Alarm_MineDet_BUZ	2
+../User/display.c:209:6:Display_Charger_LED	3
+../User/display.c:224:6:Display_SOC_7SEG	2
+../User/display.c:240:6:Print_Read_Status	1

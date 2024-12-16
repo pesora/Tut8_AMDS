@@ -1,0 +1,15 @@
+../User/collect.c:46:6:Read_Temp_Value	1
+../User/collect.c:55:6:Read_FAN_Status	1
+../User/collect.c:64:6:Read_DP_Status	1
+../User/collect.c:71:6:Read_MineDet_Number	1
+../User/collect.c:76:6:Read_Charger_Status	1
+../User/collect.c:81:6:Read_BAT_Status	1
+../User/collect.c:93:6:Read_BUZ_Status	1
+../User/collect.c:99:16:GetTempStatus1	8
+../User/collect.c:131:16:GetTempStatus2	8
+../User/collect.c:163:9:GetTempStatus	9
+../User/collect.c:196:16:GetFanStatus1	3
+../User/collect.c:218:16:GetFanStatus2	3
+../User/collect.c:241:6:Store_Portable_Status	1
+../User/collect.c:256:6:Print_Display_Status	1
+../User/collect.c:272:6:Print_Portable_Status	1

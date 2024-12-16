@@ -1,0 +1,6 @@
+User/udp_protocol.o: ../User/udp_protocol.c ../User/udp_protocol.h \
+ ../User/collect.h \
+ D:/Sunshine/Tut8_AMDS/workspace/Portable/P110A.AMDS_Portable_UDP_Unnecessary_code_removed/Lib/bq34z100.h
+../User/udp_protocol.h:
+../User/collect.h:
+D:/Sunshine/Tut8_AMDS/workspace/Portable/P110A.AMDS_Portable_UDP_Unnecessary_code_removed/Lib/bq34z100.h:

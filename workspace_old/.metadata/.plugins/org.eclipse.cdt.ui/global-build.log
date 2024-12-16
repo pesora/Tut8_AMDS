@@ -1,7 +1,0 @@
-14:02:55 **** Incremental Build of configuration Debug for project 100B-x.AMDS_Portable_first_creating ****
-make -j12 all 
-arm-none-eabi-size  100B-x.AMDS_Portable_first_creating.elf 
-   text	   data	    bss	    dec	    hex	filename
- 125352	    504	  37016	 162872	  27c38	100B-x.AMDS_Portable_first_creating.elf
-Finished building: default.size.stdout
- 
