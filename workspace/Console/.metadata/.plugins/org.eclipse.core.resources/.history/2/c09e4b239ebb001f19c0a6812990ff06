@@ -1,0 +1,4 @@
+../User/process.c:40:6:Process_Init	1
+../User/process.c:49:6:Process_Console_Status	3
+../User/process.c:73:13:Collect_Portable_Status	1
+../User/process.c:91:13:Display_Portable_LED	1

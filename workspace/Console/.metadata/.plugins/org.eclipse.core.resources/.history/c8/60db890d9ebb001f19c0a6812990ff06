@@ -1,0 +1,9 @@
+../User/display.c:22:6:LED_Init	24	static
+../User/display.c:37:6:LED_SelfTest	24	static
+../User/display.c:58:6:Display_Temp_LED	8	static
+../User/display.c:104:6:Display_FAN1_LED	8	static
+../User/display.c:125:6:Display_FAN2_LED	8	static
+../User/display.c:146:6:Display_PSU_LED	8	static
+../User/display.c:165:6:Display_DP_LED	8	static
+../User/display.c:189:6:Alarm_MineDet_BUZ	8	static
+../User/display.c:202:6:Print_Read_Status	8	static

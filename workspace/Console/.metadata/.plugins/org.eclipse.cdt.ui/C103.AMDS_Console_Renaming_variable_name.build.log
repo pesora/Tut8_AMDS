@@ -1,0 +1,10 @@
+15:43:17 **** Incremental Build of configuration Debug for project C103.AMDS_Console_Renaming_variable_name ****
+make -j12 all 
+arm-none-eabi-size  C103.AMDS_Console_Renaming_variable_name.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 113948	    500	  37004	 151452	  24f9c	C103.AMDS_Console_Renaming_variable_name.elf
+Finished building: default.size.stdout
+ 
+
+15:43:22 Build Finished. 0 errors, 0 warnings. (took 5s.313ms)
+

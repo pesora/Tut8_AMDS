@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:C100.AMDS_Console_first_creation_on_Nucleo_Board Debug
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:C104.AMDS_Console_TempStatus_with_avg_value\ Debug/activeLaunchTarget=null\:---
+org.eclipse.launchbar.core.descriptorType.default\:C100.AMDS_Console_first_creation_on_Nucleo_Board\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:C104.AMDS_Console_TempStatus_with_avg_value\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:C104.AMDS_Console_TempStatus_with_avg_value\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

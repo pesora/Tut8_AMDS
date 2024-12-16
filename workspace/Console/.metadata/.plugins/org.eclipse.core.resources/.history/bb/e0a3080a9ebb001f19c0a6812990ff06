@@ -1,0 +1,6 @@
+User/udp_protocol.o: ../User/udp_protocol.c ../User/udp_protocol.h \
+ ../User/collect.h \
+ D:/Sunshine/Tut8_AMDS/workspace/Console/C100.AMDS_Console_first_creation_on_Nucleo_Board/Lib/bq34z100.h
+../User/udp_protocol.h:
+../User/collect.h:
+D:/Sunshine/Tut8_AMDS/workspace/Console/C100.AMDS_Console_first_creation_on_Nucleo_Board/Lib/bq34z100.h:

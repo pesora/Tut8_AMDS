@@ -1,0 +1,12 @@
+../Lib/fan_control.c:39:6:FAN_Init	8	static
+../Lib/fan_control.c:68:6:FAN_Set_RPM	16	static
+../Lib/fan_control.c:102:6:FAN_Read_FansStatus	8	static
+../Lib/fan_control.c:112:9:FAN_Read_RPM	32	static
+../Lib/fan_control.c:184:16:FAN_IsRPMOverRange	24	static
+../Lib/fan_control.c:197:13:FAN_GetFanData	16	static
+../Lib/fan_control.c:207:6:Print_FanStatus	32	static
+../Lib/fan_control.c:215:6:Stop_InputCapute	8	static
+../Lib/fan_control.c:227:6:Start_InputCapute	16	static
+../Lib/fan_control.c:258:6:TIM_IC_Capture	40	static
+../Lib/fan_control.c:291:6:HAL_TIM_IC_CaptureCallback	16	static
+../Lib/fan_control.c:334:6:Control_Fan	24	static

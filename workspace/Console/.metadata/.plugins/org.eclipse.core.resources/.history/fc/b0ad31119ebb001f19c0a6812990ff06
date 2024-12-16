@@ -1,0 +1,4 @@
+../User/process.c:41:6:Process_Init	4	static
+../User/process.c:50:6:Process_Console_Status	8	static
+../User/process.c:74:13:Collect_Console_Status	8	static
+../User/process.c:92:13:Display_Console_LED	8	static

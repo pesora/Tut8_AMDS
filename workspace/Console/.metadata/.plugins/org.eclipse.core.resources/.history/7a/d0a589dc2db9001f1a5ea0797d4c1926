@@ -1,0 +1,6 @@
+../Lib/max7219.c:93:6:MAX7219_Write	24	static
+../Lib/max7219.c:100:6:MAX7219_Clear_All	16	static
+../Lib/max7219.c:106:13:MAX7219_Clear_3Digits	8	static
+../Lib/max7219.c:112:6:MAX7219_Init	8	static
+../Lib/max7219.c:122:6:Display_3Digit	16	static
+../Lib/max7219.c:130:6:Display_Number	24	static

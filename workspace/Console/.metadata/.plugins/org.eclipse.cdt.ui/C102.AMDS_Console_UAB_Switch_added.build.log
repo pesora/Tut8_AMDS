@@ -1,0 +1,10 @@
+15:45:33 **** Incremental Build of configuration Debug for project C102.AMDS_Console_UAB_Switch_added ****
+make -j12 all 
+arm-none-eabi-size  C102.AMDS_Console_UAB_Switch_added.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 113940	    500	  37004	 151444	  24f94	C102.AMDS_Console_UAB_Switch_added.elf
+Finished building: default.size.stdout
+ 
+
+15:45:37 Build Finished. 0 errors, 0 warnings. (took 3s.618ms)
+

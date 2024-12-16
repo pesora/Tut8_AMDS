@@ -1,0 +1,6 @@
+../Lib/bq34z100.c:34:6:ReadBq34z100	1
+../Lib/bq34z100.c:48:10:bq34z100_StdCmd	3
+../Lib/bq34z100.c:73:10:bq34z100_ExtCmd	3
+../Lib/bq34z100.c:96:10:bq34z100_SubCmd	4
+../Lib/bq34z100.c:134:6:PrintBq34z100Data	1
+../Lib/bq34z100.c:151:9:i2c_scan	4
