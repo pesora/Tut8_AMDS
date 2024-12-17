@@ -181,14 +181,9 @@ int main(void)
     {
       toggle = !toggle;
 
-      if(uTimer_CheckTimeOut((uint8_t)uTimerDebounce) == TRUE)
-      {
-        //if(toggle==1) Buzzer_On();
-        //else Buzzer_Off();
-
-        //Send_Portable_Status();
-        key_pressed = 0;
-      }
+		//Send_Portable_Status();
+		
+         key_pressed = 0;
     }
 
     /* USER CODE END WHILE */

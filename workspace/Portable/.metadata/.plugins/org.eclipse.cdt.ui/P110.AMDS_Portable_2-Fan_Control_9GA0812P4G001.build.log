@@ -1,0 +1,20 @@
+15:28:19 **** Incremental Build of configuration Debug for project P110.AMDS_Portable_2-Fan_Control_9GA0812P4G001 ****
+make -j12 all 
+arm-none-eabi-gcc "../User/collect.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Core/Inc -I"D:/Sunshine/Tut8_AMDS/workspace/Portable/P110.AMDS_Portable_2-Fan_Control_9GA0812P4G001/User" -I"D:/Sunshine/Tut8_AMDS/workspace/Portable/P110.AMDS_Portable_2-Fan_Control_9GA0812P4G001/Utils" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../LWIP/App -I../LWIP/Target -I../Middlewares/Third_Party/LwIP/src/include -I../Middlewares/Third_Party/LwIP/system -I../Drivers/BSP/Components/lan8742 -I../Middlewares/Third_Party/LwIP/src/include/netif/ppp -I../Middlewares/Third_Party/LwIP/src/include/lwip -I../Middlewares/Third_Party/LwIP/src/include/lwip/apps -I../Middlewares/Third_Party/LwIP/src/include/lwip/priv -I../Middlewares/Third_Party/LwIP/src/include/lwip/prot -I../Middlewares/Third_Party/LwIP/src/include/netif -I../Middlewares/Third_Party/LwIP/src/include/compat/posix -I../Middlewares/Third_Party/LwIP/src/include/compat/posix/arpa -I../Middlewares/Third_Party/LwIP/src/include/compat/posix/net -I../Middlewares/Third_Party/LwIP/src/include/compat/posix/sys -I../Middlewares/Third_Party/LwIP/src/include/compat/stdc -I../Middlewares/Third_Party/LwIP/system/arch -I"D:/Sunshine/Tut8_AMDS/workspace/Portable/P110.AMDS_Portable_2-Fan_Control_9GA0812P4G001/Lib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"User/collect.d" -MT"User/collect.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "User/collect.o"
+arm-none-eabi-gcc -o "P110.AMDS_Portable_2-Fan_Control_9GA0812P4G001.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Sunshine\Tut8_AMDS\workspace\Portable\P110.AMDS_Portable_2-Fan_Control_9GA0812P4G001\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="P110.AMDS_Portable_2-Fan_Control_9GA0812P4G001.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: P110.AMDS_Portable_2-Fan_Control_9GA0812P4G001.elf
+ 
+arm-none-eabi-size  P110.AMDS_Portable_2-Fan_Control_9GA0812P4G001.elf 
+arm-none-eabi-objdump -h -S P110.AMDS_Portable_2-Fan_Control_9GA0812P4G001.elf  > "P110.AMDS_Portable_2-Fan_Control_9GA0812P4G001.list"
+   text	   data	    bss	    dec	    hex	filename
+ 117772	    508	  36876	 155156	  25e14	P110.AMDS_Portable_2-Fan_Control_9GA0812P4G001.elf
+arm-none-eabi-objcopy  -O binary P110.AMDS_Portable_2-Fan_Control_9GA0812P4G001.elf  "P110.AMDS_Portable_2-Fan_Control_9GA0812P4G001.bin"
+Finished building: default.size.stdout
+ 
+Finished building: P110.AMDS_Portable_2-Fan_Control_9GA0812P4G001.bin
+ 
+Finished building: P110.AMDS_Portable_2-Fan_Control_9GA0812P4G001.list
+ 
+
+15:28:28 Build Finished. 0 errors, 0 warnings. (took 9s.151ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;P110.AMDS_Portable_UDP_Unnecessary_code_removed/P110A.AMDS_Portable_UDP_Unnecessary_code_removed.ioc&apos; to &apos;P110.AMDS_Portable_2-Fan_Control_9GA0812P4G001.ioc&apos;" description="Rename resource &apos;P110A.AMDS_Portable_UDP_Unnecessary_code_removed.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="P110A.AMDS_Portable_UDP_Unnecessary_code_removed.ioc" name="P110.AMDS_Portable_2-Fan_Control_9GA0812P4G001.ioc" stamp="1734416734709" updateReferences="true"/>
+</session>

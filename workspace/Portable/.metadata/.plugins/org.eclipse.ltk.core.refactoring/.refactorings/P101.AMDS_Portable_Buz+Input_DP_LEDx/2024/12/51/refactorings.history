@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;P101.AMDS_Portable_Buz+Input_DP_LEDx/P101.AMDS_Portable_first_creation_on_Prototype_Board.ioc&apos; to &apos;P101.AMDS_Portable_Buz+Input_DP_LEDx.ioc&apos;" description="Rename resource &apos;P101.AMDS_Portable_first_creation_on_Prototype_Board.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="P101.AMDS_Portable_first_creation_on_Prototype_Board.ioc" name="P101.AMDS_Portable_Buz+Input_DP_LEDx.ioc" stamp="1734416605725" updateReferences="true"/>
+</session>
