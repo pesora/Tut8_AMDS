@@ -1,0 +1,134 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "콘솔형 펌웨어",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAGT3wcE78Ut8q0=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "콘솔형 펌웨어 CSC 순서도",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAGT3wcE78Uu9Bs=",
+					"_parent": {
+						"$ref": "AAAAAAGT3wcE78Ut8q0="
+					},
+					"name": "FlowchartDiagram1",
+					"ownedViews": [
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGT3yJU4sU2foc=",
+							"_parent": {
+								"$ref": "AAAAAAGT3wcE78Uu9Bs="
+							},
+							"model": {
+								"$ref": "AAAAAAGT3yJU4sU0Was="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGT3yJU48U39VM=",
+									"_parent": {
+										"$ref": "AAAAAAGT3yJU4sU2foc="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 154,
+									"top": 122,
+									"width": 236,
+									"height": 13,
+									"text": "하드웨어 초기화 CSU",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 144,
+							"top": 112,
+							"width": 256,
+							"height": 48,
+							"nameLabel": {
+								"$ref": "AAAAAAGT3yJU48U39VM="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGT3yOX2sVFwM0=",
+							"_parent": {
+								"$ref": "AAAAAAGT3wcE78Uu9Bs="
+							},
+							"model": {
+								"$ref": "AAAAAAGT3yOX2cVDh6w="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGT3yOX2sVGVS4=",
+									"_parent": {
+										"$ref": "AAAAAAGT3yOX2sVFwM0="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 194,
+									"top": 242,
+									"width": 164,
+									"height": 13,
+									"text": "온도값 수집",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 184,
+							"top": 232,
+							"width": 184,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGT3yOX2sVGVS4="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGT3yJU4sU0Was=",
+					"_parent": {
+						"$ref": "AAAAAAGT3wcE78Ut8q0="
+					},
+					"name": "하드웨어 초기화 CSU"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGT3yOX2cVDh6w=",
+					"_parent": {
+						"$ref": "AAAAAAGT3wcE78Ut8q0="
+					},
+					"name": "온도값 수집"
+				}
+			]
+		}
+	]
+}
