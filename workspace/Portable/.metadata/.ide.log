@@ -1421,3 +1421,4 @@ java.lang.NullPointerException: Cannot invoke "javax.swing.JTextField.getText()"
 2024-12-17 15:33:26,916 [WARN] IP:2191 - LWIP_NETIF_HOSTNAME_NAME not found: check if there is a RefParameter without a condition.
 2024-12-17 15:33:26,946 [WARN] IP:2191 - CMSIS_VERSION not found: check if there is a RefParameter without a condition.
 2024-12-17 15:33:26,949 [WARN] IP:2191 - LWIP_NETIF_HOSTNAME_NAME not found: check if there is a RefParameter without a condition.
+2024-12-17 16:37:31,977 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 

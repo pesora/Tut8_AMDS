@@ -880,3 +880,256 @@ java.util.ConcurrentModificationException
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-12-17 15:26:50.358
 !MESSAGE Indexed 'P110.AMDS_Portable_2-Fan_Control_9GA0812P4G001' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-12-17 16:03:41.674
+!MESSAGE Exception trying to parse option [#include <C:\ST\STM32CubeIDE_1.16.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../arm-none-eabi/include/newlib-nano>], class CrossBuiltinSpecsDetector
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1221)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.determineMappedURI(AbstractLanguageSettingsOutputScanner.java:1014)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1186)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:259)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-12-17 16:03:41.684
+!MESSAGE Exception trying to parse option [#include <C:\ST\STM32CubeIDE_1.16.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/include>], class CrossBuiltinSpecsDetector
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1221)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.determineMappedURI(AbstractLanguageSettingsOutputScanner.java:1014)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1186)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:259)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-12-17 16:03:41.691
+!MESSAGE Exception trying to parse option [#include <C:\ST\STM32CubeIDE_1.16.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/include-fixed>], class CrossBuiltinSpecsDetector
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1221)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.determineMappedURI(AbstractLanguageSettingsOutputScanner.java:1014)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1186)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:259)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-12-17 16:03:41.700
+!MESSAGE Exception trying to parse option [#include <C:\ST\STM32CubeIDE_1.16.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include>], class CrossBuiltinSpecsDetector
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1221)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.findContainerForLocationURI(AbstractLanguageSettingsOutputScanner.java:818)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.resolvePathEntryInWorkspace(AbstractLanguageSettingsOutputScanner.java:1241)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1193)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:259)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-12-17 16:03:41.708
+!MESSAGE Exception trying to parse option [#include <C:/ST/STM32CubeIDE_1.16.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include>], class CrossBuiltinSpecsDetector
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1221)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.determineMappedURI(AbstractLanguageSettingsOutputScanner.java:1014)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1186)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:259)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-12-17 16:03:41.713
+!MESSAGE Exception trying to parse option [#include <C:/ST/STM32CubeIDE_1.16.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include>], class CrossBuiltinSpecsDetector
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1221)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.determineMappedURI(AbstractLanguageSettingsOutputScanner.java:1014)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1186)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:259)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-12-17 16:03:42.159
+!MESSAGE Exception trying to parse option [#include <C:\ST\STM32CubeIDE_1.16.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/backward>], class CrossBuiltinSpecsDetector
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1221)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.findContainerForLocationURI(AbstractLanguageSettingsOutputScanner.java:818)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.resolvePathEntryInWorkspace(AbstractLanguageSettingsOutputScanner.java:1241)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1193)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:259)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-12-17 16:03:42.164
+!MESSAGE Exception trying to parse option [#include <C:\ST\STM32CubeIDE_1.16.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/backward>], class CrossBuiltinSpecsDetector
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1221)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.getFilesystemLocation(AbstractLanguageSettingsOutputScanner.java:1161)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.resolvePathEntryInFilesystem(AbstractLanguageSettingsOutputScanner.java:1256)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1197)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:259)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-12-17 16:03:42.168
+!MESSAGE Exception trying to parse option [#include <C:/ST/STM32CubeIDE_1.16.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/backward>], class CrossBuiltinSpecsDetector
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1221)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.determineMappedURI(AbstractLanguageSettingsOutputScanner.java:1014)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1186)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:259)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-12-17 16:03:42.170
+!MESSAGE Exception trying to parse option [#include <C:/ST/STM32CubeIDE_1.16.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/backward>], class CrossBuiltinSpecsDetector
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1221)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.determineMappedURI(AbstractLanguageSettingsOutputScanner.java:1014)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1186)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:259)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-17 16:03:54.135
+!MESSAGE Indexed 'P110.AMDS_Portable_2-Fan_Control_9GA0812P4G001' (131 sources, 326 headers) in 8.42 sec: 21,226 declarations; 118,976 references; 2 unresolved inclusions; 93 syntax errors; 271 unresolved names (0.19%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-17 16:04:13.686
+!MESSAGE Indexed 'P100.AMDS_Portable_same_as_51_Console+Portable' (131 sources, 326 headers) in 19.5 sec: 21,268 declarations; 119,820 references; 2 unresolved inclusions; 94 syntax errors; 271 unresolved names (0.19%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-17 16:04:53.010
+!MESSAGE Indexed 'P101.AMDS_Portable_Buz+Input_DP_LEDx' (131 sources, 324 headers) in 39.3 sec: 21,243 declarations; 119,680 references; 2 unresolved inclusions; 93 syntax errors; 272 unresolved names (0.19%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-17 16:07:26.954
+!MESSAGE Indexed 'P110A.AMDS_Portable_2-Fan_Control_9GA0812P4G2' (131 sources, 326 headers) in 7.52 sec: 21,226 declarations; 118,976 references; 2 unresolved inclusions; 93 syntax errors; 271 unresolved names (0.19%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 2 2 2024-12-17 16:30:24.262
+!MESSAGE ST-LINK firmware verification, Check required failed
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 2 2 2024-12-17 16:30:24.263
+!MESSAGE ST-LINK firmware verification, No latest info found: -1
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2024-12-17 16:31:31.232
+!MESSAGE Error in final launch sequence:
+
+Failed to execute MI command:
+target remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: Connection timed out.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+target remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: Connection timed out.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:336)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.Exception: localhost:61234: Connection timed out.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-12-17 16:31:31.232
+!MESSAGE Failed to execute MI command:
+target remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: Connection timed out.
+!STACK 0
+java.lang.Exception: localhost:61234: Connection timed out.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 2 2 2024-12-17 16:32:21.870
+!MESSAGE ST-LINK firmware verification, Check required failed
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 2 2 2024-12-17 16:32:21.871
+!MESSAGE ST-LINK firmware verification, No latest info found: -1
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2024-12-17 16:32:44.240
+!MESSAGE Error in final launch sequence:
+
+Failed to execute MI command:
+target remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: Connection timed out.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+target remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: Connection timed out.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:336)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.Exception: localhost:61234: Connection timed out.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2024-12-17 16:32:44.240
+!MESSAGE Failed to execute MI command:
+target remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: Connection timed out.
+!STACK 0
+java.lang.Exception: localhost:61234: Connection timed out.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
