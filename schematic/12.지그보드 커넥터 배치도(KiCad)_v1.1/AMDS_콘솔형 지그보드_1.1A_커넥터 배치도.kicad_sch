@@ -3685,7 +3685,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 151.13) (xy 190.5 162.56)
+			(xy 189.23 151.13) (xy 189.23 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3725,7 +3725,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 151.13) (xy 171.45 162.56)
+			(xy 176.53 151.13) (xy 176.53 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3795,7 +3795,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 151.13) (xy 176.53 162.56)
+			(xy 171.45 151.13) (xy 171.45 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3865,7 +3865,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 163.83) (xy 179.07 162.56)
+			(xy 168.91 163.83) (xy 168.91 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4165,7 +4165,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 138.43) (xy 176.53 140.97)
+			(xy 171.45 138.43) (xy 171.45 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4265,7 +4265,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 151.13) (xy 200.66 162.56)
+			(xy 210.82 151.13) (xy 210.82 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4525,7 +4525,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 138.43) (xy 190.5 140.97)
+			(xy 189.23 138.43) (xy 189.23 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4535,7 +4535,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 138.43) (xy 171.45 140.97)
+			(xy 176.53 138.43) (xy 176.53 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4815,7 +4815,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 138.43) (xy 187.96 140.97)
+			(xy 191.77 138.43) (xy 191.77 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4835,7 +4835,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 151.13) (xy 187.96 162.56)
+			(xy 191.77 151.13) (xy 191.77 162.56)
 		)
 		(stroke
 			(width 0)
@@ -5135,7 +5135,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 138.43) (xy 203.2 140.97)
+			(xy 208.28 138.43) (xy 208.28 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5175,7 +5175,7 @@
 	)
 	(rectangle
 		(start 26.035 57.785)
-		(end 217.17 170.18)
+		(end 217.17 121.92)
 		(stroke
 			(width 0.5)
 			(type default)
@@ -5466,7 +5466,7 @@
 	)
 	(text "DP_USB2"
 		(exclude_from_sim no)
-		(at 209.042 145.288 90)
+		(at 202.438 145.288 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5491,7 +5491,7 @@
 	)
 	(text "DP_USB1"
 		(exclude_from_sim no)
-		(at 197.358 145.288 90)
+		(at 214.122 145.288 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5535,7 +5535,7 @@
 		(uuid "14dd4412-4562-4b41-8e85-c82aea9e0515")
 	)
 	(label "INPUT_PSU1"
-		(at 187.96 162.56 90)
+		(at 191.77 162.56 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5558,7 +5558,7 @@
 		(uuid "19969cda-8942-4e9d-8b1c-b46a596077d9")
 	)
 	(label "SEL_DP1"
-		(at 200.66 160.02 90)
+		(at 210.82 160.02 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5789,7 +5789,7 @@
 		(uuid "6042b677-b532-44b2-a3d8-dbb27182644a")
 	)
 	(label "INPUT_DP2"
-		(at 176.53 162.56 90)
+		(at 171.45 161.29 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5867,7 +5867,7 @@
 		(uuid "765d4dbb-27bc-4253-9af8-87549045fa86")
 	)
 	(label "INPUT_DP1"
-		(at 171.45 162.56 90)
+		(at 176.53 161.29 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6165,7 +6165,7 @@
 		(uuid "cdc21210-d376-4219-88c8-0efb77350297")
 	)
 	(label "INPUT_PSU2"
-		(at 190.5 162.56 90)
+		(at 189.23 162.56 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6266,8 +6266,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 190.5 167.64 90)
-		(mirror x)
+		(at 189.23 167.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6275,7 +6274,7 @@
 		(dnp no)
 		(uuid "037f8be9-0df0-4aca-ad4c-0c55f8f179ff")
 		(property "Reference" "J1C18"
-			(at 186.944 174.117 90)
+			(at 192.786 174.117 90)
 			(effects
 				(font
 					(size 1.6 1.6)
@@ -6284,7 +6283,7 @@
 			)
 		)
 		(property "Value" "PSU"
-			(at 187.579 177.292 90)
+			(at 192.151 177.292 90)
 			(effects
 				(font
 					(face "맑은 고딕")
@@ -6296,7 +6295,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 167.64 0)
+			(at 189.23 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6305,7 +6304,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 167.64 0)
+			(at 189.23 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,7 +6313,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 167.64 0)
+			(at 189.23 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8378,7 +8377,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 171.45 146.05 90)
+		(at 176.53 146.05 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8386,7 +8386,7 @@
 		(dnp no)
 		(uuid "54724ebc-8448-43d8-be34-2c385686fa1b")
 		(property "Reference" "SW1"
-			(at 168.656 144.78 0)
+			(at 179.324 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8395,7 +8395,7 @@
 			)
 		)
 		(property "Value" "DP1"
-			(at 169.672 126.238 90)
+			(at 178.308 126.238 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8406,7 +8406,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 146.05 0)
+			(at 176.53 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8415,7 +8415,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 146.05 0)
+			(at 176.53 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8424,7 +8424,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 171.45 146.05 0)
+			(at 176.53 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9095,7 +9095,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 187.96 146.05 90)
+		(at 191.77 146.05 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9103,7 +9104,7 @@
 		(dnp no)
 		(uuid "77fcec52-0d36-441b-b5aa-35c082100293")
 		(property "Reference" "SW3"
-			(at 185.166 145.034 0)
+			(at 194.564 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9112,7 +9113,7 @@
 			)
 		)
 		(property "Value" "PSU1"
-			(at 188.214 122.936 0)
+			(at 191.516 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9123,7 +9124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 146.05 0)
+			(at 191.77 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9132,7 +9133,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 146.05 0)
+			(at 191.77 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9141,7 +9142,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 187.96 146.05 0)
+			(at 191.77 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9550,8 +9551,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT_321")
-		(at 203.2 146.05 90)
-		(mirror x)
+		(at 208.28 146.05 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9559,7 +9559,7 @@
 		(dnp no)
 		(uuid "81804c11-a756-4956-85aa-2cd3b74318a5")
 		(property "Reference" "SW5"
-			(at 202.692 146.05 90)
+			(at 208.788 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9568,7 +9568,7 @@
 			)
 		)
 		(property "Value" "USB_SW"
-			(at 199.136 124.714 90)
+			(at 212.344 124.714 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9579,7 +9579,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 146.05 0)
+			(at 198.12 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9588,7 +9588,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 146.05 0)
+			(at 200.66 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9597,7 +9597,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 203.2 146.05 0)
+			(at 208.28 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10059,8 +10059,7 @@
 	)
 	(symbol
 		(lib_id "gnd:GND")
-		(at 176.53 138.43 0)
-		(mirror x)
+		(at 171.45 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10068,7 +10067,7 @@
 		(dnp no)
 		(uuid "99b9d2e0-971a-422a-8b59-20519dafc64c")
 		(property "Reference" "#PWR040"
-			(at 176.53 132.08 0)
+			(at 171.45 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10077,7 +10076,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.784 132.842 90)
+			(at 171.196 132.842 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10085,7 +10084,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 138.43 0)
+			(at 171.45 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10094,7 +10093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 138.43 0)
+			(at 171.45 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10103,7 +10102,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 138.43 0)
+			(at 171.45 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10258,8 +10257,7 @@
 	)
 	(symbol
 		(lib_id "gnd:GND")
-		(at 171.45 138.43 0)
-		(mirror x)
+		(at 176.53 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10267,7 +10265,7 @@
 		(dnp no)
 		(uuid "9d82cf8d-e4a1-423d-a342-a4996ba6584b")
 		(property "Reference" "#PWR039"
-			(at 171.45 132.08 0)
+			(at 176.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10276,7 +10274,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.704 132.842 90)
+			(at 176.276 132.842 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10284,7 +10282,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 138.43 0)
+			(at 176.53 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10293,7 +10291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 138.43 0)
+			(at 176.53 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10302,7 +10300,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 138.43 0)
+			(at 176.53 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10324,7 +10322,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 190.5 146.05 90)
+		(at 189.23 146.05 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10332,7 +10331,7 @@
 		(dnp no)
 		(uuid "a4a5610a-e68d-42a3-8061-ff5d7c36b236")
 		(property "Reference" "SW4"
-			(at 192.278 144.526 0)
+			(at 187.452 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10341,7 +10340,7 @@
 			)
 		)
 		(property "Value" "PSU2"
-			(at 191.008 123.19 0)
+			(at 188.722 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10352,7 +10351,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 146.05 0)
+			(at 189.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10361,7 +10360,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 146.05 0)
+			(at 189.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10370,7 +10369,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 190.5 146.05 0)
+			(at 189.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10460,8 +10459,7 @@
 	)
 	(symbol
 		(lib_id "gnd:GND")
-		(at 179.07 163.83 0)
-		(mirror x)
+		(at 168.91 163.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10469,7 +10467,7 @@
 		(dnp no)
 		(uuid "a9cf91b7-c446-4f8d-bfc3-4fd086afc46c")
 		(property "Reference" "#PWR06"
-			(at 179.07 157.48 0)
+			(at 168.91 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10478,7 +10476,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 178.308 158.623 90)
+			(at 168.148 159.004 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10486,7 +10484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 163.83 0)
+			(at 168.91 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10495,7 +10493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 163.83 0)
+			(at 168.91 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10504,7 +10502,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 163.83 0)
+			(at 168.91 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10729,7 +10727,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 176.53 146.05 90)
+		(at 171.45 146.05 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10746,7 +10745,7 @@
 			)
 		)
 		(property "Value" "DP2"
-			(at 175.514 126.238 90)
+			(at 172.466 126.238 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10757,7 +10756,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 146.05 0)
+			(at 171.45 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10766,7 +10765,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 146.05 0)
+			(at 171.45 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10775,7 +10774,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 176.53 146.05 0)
+			(at 171.45 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10800,8 +10799,7 @@
 	)
 	(symbol
 		(lib_id "gnd:GND")
-		(at 190.5 138.43 0)
-		(mirror x)
+		(at 189.23 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10809,7 +10807,7 @@
 		(dnp no)
 		(uuid "b6608991-0a86-4a8c-affb-a6ffe11dd31e")
 		(property "Reference" "#PWR042"
-			(at 190.5 132.08 0)
+			(at 189.23 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10818,7 +10816,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.754 132.842 90)
+			(at 188.976 132.842 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10826,7 +10824,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 138.43 0)
+			(at 189.23 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10835,7 +10833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 138.43 0)
+			(at 189.23 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10844,7 +10842,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 138.43 0)
+			(at 189.23 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11074,8 +11072,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 173.99 167.64 90)
-		(mirror x)
+		(at 173.99 167.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11083,7 +11080,7 @@
 		(dnp no)
 		(uuid "bfb49c2e-71b5-47a8-95e9-4ad16c1d5520")
 		(property "Reference" "J1C15"
-			(at 174.371 174.371 90)
+			(at 173.609 174.371 90)
 			(effects
 				(font
 					(size 1.6 1.6)
@@ -11091,7 +11088,7 @@
 			)
 		)
 		(property "Value" "DP"
-			(at 172.466 177.546 90)
+			(at 175.514 177.546 90)
 			(effects
 				(font
 					(size 1.6 1.6)
@@ -11578,7 +11575,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 162.56 180)
+		(at 186.69 162.56 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11586,7 +11584,7 @@
 		(dnp no)
 		(uuid "cfdd821b-1484-4543-b28e-abd0aad1ac57")
 		(property "Reference" "#PWR019"
-			(at 193.04 156.21 0)
+			(at 186.69 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11595,7 +11593,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 192.532 157.226 90)
+			(at 186.182 157.226 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11603,7 +11601,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 162.56 0)
+			(at 186.69 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11612,7 +11610,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 162.56 0)
+			(at 186.69 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11621,7 +11619,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 162.56 0)
+			(at 186.69 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11853,7 +11851,8 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 203.2 162.56 0)
+		(at 208.28 162.56 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11861,7 +11860,7 @@
 		(dnp no)
 		(uuid "df5994c5-ec67-428a-b460-52588b40730c")
 		(property "Reference" "#PWR031"
-			(at 203.2 166.37 0)
+			(at 208.28 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11870,7 +11869,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 202.438 160.02 90)
+			(at 209.042 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11879,7 +11878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 162.56 0)
+			(at 208.28 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11888,7 +11887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 162.56 0)
+			(at 208.28 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11897,7 +11896,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 162.56 0)
+			(at 208.28 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12050,8 +12049,7 @@
 	)
 	(symbol
 		(lib_id "gnd:GND")
-		(at 187.96 138.43 0)
-		(mirror x)
+		(at 191.77 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12059,7 +12057,7 @@
 		(dnp no)
 		(uuid "e3dc1435-bad9-47c7-9e94-d71b09f9a1d1")
 		(property "Reference" "#PWR041"
-			(at 187.96 132.08 0)
+			(at 191.77 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12068,7 +12066,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 188.214 132.842 90)
+			(at 191.516 132.842 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12076,7 +12074,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 138.43 0)
+			(at 191.77 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12085,7 +12083,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 138.43 0)
+			(at 191.77 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12094,7 +12092,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 138.43 0)
+			(at 191.77 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12116,7 +12114,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 203.2 167.64 270)
+		(at 208.28 167.64 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12124,7 +12123,7 @@
 		(dnp no)
 		(uuid "e519b05d-4aef-492d-88a1-d56beb7b63ae")
 		(property "Reference" "J1C10"
-			(at 206.629 174.117 90)
+			(at 204.851 174.117 90)
 			(effects
 				(font
 					(size 1.6 1.6)
@@ -12133,7 +12132,7 @@
 			)
 		)
 		(property "Value" "DP_USB_SW"
-			(at 212.344 177.292 90)
+			(at 205.486 177.038 90)
 			(effects
 				(font
 					(face "맑은 고딕")
@@ -12145,7 +12144,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 167.64 0)
+			(at 208.28 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12154,7 +12153,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 167.64 0)
+			(at 208.28 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12163,7 +12162,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 167.64 0)
+			(at 208.28 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12342,7 +12341,8 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 203.2 138.43 0)
+		(at 208.28 138.43 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12351,7 +12351,7 @@
 		(fields_autoplaced yes)
 		(uuid "efc34e95-c793-4783-b440-4ae8acb34084")
 		(property "Reference" "#PWR047"
-			(at 203.2 142.24 0)
+			(at 208.28 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12360,7 +12360,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 203.2 134.62 90)
+			(at 208.28 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12369,7 +12369,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 138.43 0)
+			(at 208.28 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12378,7 +12378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 138.43 0)
+			(at 208.28 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12387,7 +12387,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 138.43 0)
+			(at 208.28 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12474,8 +12474,7 @@
 	)
 	(symbol
 		(lib_id "gnd:GND")
-		(at 173.99 163.83 0)
-		(mirror x)
+		(at 173.99 163.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12492,7 +12491,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.228 158.877 90)
+			(at 173.482 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
