@@ -9,7 +9,7 @@
 #define SEND_H_
 
 
-void Send_Portable_Status(void);
+void Send_Console_Status(void);
 
 
 #endif /* SEND_H_ */

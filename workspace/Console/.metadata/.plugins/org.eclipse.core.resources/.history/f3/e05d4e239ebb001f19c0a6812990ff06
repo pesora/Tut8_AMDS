@@ -1,3 +1,0 @@
-../User/usb_switch.c:15:6:Read_Usb_Switch	8	static
-../User/usb_switch.c:23:6:Output_Usb_Switch	16	static
-../User/usb_switch.c:56:6:USB_Selec_Switch	8	static

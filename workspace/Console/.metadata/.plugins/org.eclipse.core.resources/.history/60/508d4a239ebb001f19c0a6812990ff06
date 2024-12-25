@@ -1,4 +1,0 @@
-../User/debug_uart.c:31:6:DBG_Uart_Init	8	static
-../User/debug_uart.c:37:6:uart_isr	16	static
-../User/debug_uart.c:59:6:parseReceivedString	40	static
-../User/debug_uart.c:76:6:HAL_UART_RxCpltCallback	40	static

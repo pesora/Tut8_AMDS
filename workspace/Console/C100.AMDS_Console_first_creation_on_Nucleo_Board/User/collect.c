@@ -57,7 +57,7 @@ void Read_Temp_Value(void)
 //
 void Read_FAN_Status(void)
 {
-  FAN_Read_FansStatus();
+	FAN_Read_FansStatus();
 
 	FAN_Sense1 = Fan[0].err;
 	FAN_Sense2 = Fan[1].err;

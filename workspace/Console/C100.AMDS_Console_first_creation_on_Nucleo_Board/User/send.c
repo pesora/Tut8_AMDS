@@ -10,7 +10,7 @@
 #include "udp_protocol.h"
 #include "udp_server.h"
 
-void Send_Portable_Status(void)
+void Send_Console_Status(void)
 {
 	StatusCount++;
 	UDP_Make_StatusPacket();

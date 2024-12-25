@@ -33,8 +33,8 @@ static uint32_t collect_stamp_1sec = 0;
 static uint32_t display_stamp_1sec = 0;
 static uint32_t send_stamp_1sec = 0;
 
-static void Collect_Portable_Status(void);
-static void Display_Portable_LED(void);
+static void Collect_Console_Status(void);
+static void Display_Console_LED(void);
 
 void Process_Init(void)
 {
@@ -55,9 +55,9 @@ void Process_Console_Status(void)
 
   if (fan_done == 1 && (mills() - collect_stamp_1sec >= 1000))
   {
-    Collect_Portable_Status();
-    Display_Portable_LED();
-    Send_Portable_Status();
+    Collect_Console_Status();
+    Display_Console_LED();
+    Send_Console_Status();
 
     fan_done = 0;
     collect_stamp_1sec = mills();
@@ -67,7 +67,7 @@ void Process_Console_Status(void)
 }
 
 
-static void Collect_Portable_Status(void)
+static void Collect_Console_Status(void)
 {
   Read_Temp_Value();
   Read_PSU_Status();
@@ -85,7 +85,7 @@ static void Collect_Portable_Status(void)
 }
 
 
-static void Display_Portable_LED(void)
+static void Display_Console_LED(void)
 {
   Display_Temp_LED();
   Display_FAN1_LED();

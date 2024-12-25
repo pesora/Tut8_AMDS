@@ -1,4 +1,0 @@
-../User/process.c:41:6:Process_Init	1
-../User/process.c:50:6:Process_Console_Status	3
-../User/process.c:74:13:Collect_Console_Status	1
-../User/process.c:92:13:Display_Console_LED	1

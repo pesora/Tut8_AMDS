@@ -159,14 +159,15 @@ uint8_t FAN_Read_RPM(void)
 		if(ch>(MAX_FAN_QTY-1))
 		{
 			//copy the result for debugging
-		  for(int i=0; i<MAX_FAN_QTY; i++)
-		  {
-		    DbgFan[i].rpm = Fan[i].rpm;
-		    DbgFan[i].err = Fan[i].err;
-		  }
-		  //clear frequency
-			for(int i=0; i<MAX_FAN_QTY; i++) { frequency[i] = 0; }
-      ch = 0;
+			for(int i=0; i<MAX_FAN_QTY; i++) {
+				DbgFan[i].rpm = Fan[i].rpm;
+				DbgFan[i].err = Fan[i].err;
+			}
+			//clear frequency
+			for(int i=0; i<MAX_FAN_QTY; i++) {
+				frequency[i] = 0;
+			}
+			ch = 0;
 			ret = 1;
 		}
 		//HAL_Delay(10);
