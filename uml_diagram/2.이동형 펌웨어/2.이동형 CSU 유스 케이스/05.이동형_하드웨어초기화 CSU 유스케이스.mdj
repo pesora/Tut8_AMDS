@@ -1,7 +1,7 @@
 {
 	"_type": "Project",
 	"_id": "AAAAAAFF+h6SjaM2Hec=",
-	"name": "AMDS 콘솔형",
+	"name": "AMDS 이동형",
 	"ownedElements": [
 		{
 			"_type": "UMLModel",
@@ -28,7 +28,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "콘솔형 하드웨어 초기화 CSU 유스케이스",
+			"name": "이동형 하드웨어 초기화 CSU 유스케이스",
 			"ownedElements": [
 				{
 					"_type": "UMLUseCaseDiagram",
@@ -98,7 +98,7 @@
 											"top": -240,
 											"width": 277.97021484375,
 											"height": 13,
-											"text": "(from 콘솔형 하드웨어 초기화 CSU 유스케이스)"
+											"text": "(from 이동형 하드웨어 초기화 CSU 유스케이스)"
 										},
 										{
 											"_type": "LabelView",
@@ -308,7 +308,7 @@
 											"top": -240,
 											"width": 277.97021484375,
 											"height": 13,
-											"text": "(from 콘솔형 하드웨어 초기화 CSU 유스케이스)"
+											"text": "(from 이동형 하드웨어 초기화 CSU 유스케이스)"
 										},
 										{
 											"_type": "LabelView",
@@ -518,7 +518,7 @@
 											"top": -224,
 											"width": 277.97021484375,
 											"height": 13,
-											"text": "(from 콘솔형 하드웨어 초기화 CSU 유스케이스)"
+											"text": "(from 이동형 하드웨어 초기화 CSU 유스케이스)"
 										},
 										{
 											"_type": "LabelView",
@@ -728,7 +728,7 @@
 											"top": -240,
 											"width": 277.97021484375,
 											"height": 13,
-											"text": "(from 콘솔형 하드웨어 초기화 CSU 유스케이스)"
+											"text": "(from 이동형 하드웨어 초기화 CSU 유스케이스)"
 										},
 										{
 											"_type": "LabelView",
@@ -938,7 +938,7 @@
 											"top": -256,
 											"width": 277.97021484375,
 											"height": 13,
-											"text": "(from 콘솔형 하드웨어 초기화 CSU 유스케이스)"
+											"text": "(from 이동형 하드웨어 초기화 CSU 유스케이스)"
 										},
 										{
 											"_type": "LabelView",
@@ -1148,7 +1148,7 @@
 											"top": -272,
 											"width": 277.97021484375,
 											"height": 13,
-											"text": "(from 콘솔형 하드웨어 초기화 CSU 유스케이스)"
+											"text": "(from 이동형 하드웨어 초기화 CSU 유스케이스)"
 										},
 										{
 											"_type": "LabelView",
@@ -1358,7 +1358,7 @@
 											"top": -288,
 											"width": 277.97021484375,
 											"height": 13,
-											"text": "(from 콘솔형 하드웨어 초기화 CSU 유스케이스)"
+											"text": "(from 이동형 하드웨어 초기화 CSU 유스케이스)"
 										},
 										{
 											"_type": "LabelView",
@@ -1568,7 +1568,7 @@
 											"top": -240,
 											"width": 277.97021484375,
 											"height": 13,
-											"text": "(from 콘솔형 하드웨어 초기화 CSU 유스케이스)"
+											"text": "(from 이동형 하드웨어 초기화 CSU 유스케이스)"
 										},
 										{
 											"_type": "LabelView",
@@ -1610,7 +1610,7 @@
 							"left": 304,
 							"top": 32,
 							"width": 408,
-							"height": 560,
+							"height": 624,
 							"nameCompartment": {
 								"$ref": "AAAAAAGT7QQaGfQU2VM="
 							}
@@ -1675,7 +1675,7 @@
 											"top": -384,
 											"width": 277.97021484375,
 											"height": 13,
-											"text": "(from 콘솔형 하드웨어 초기화 CSU 유스케이스)"
+											"text": "(from 이동형 하드웨어 초기화 CSU 유스케이스)"
 										},
 										{
 											"_type": "LabelView",
@@ -1865,7 +1865,7 @@
 											"top": -240,
 											"width": 277.97021484375,
 											"height": 13,
-											"text": "(from 콘솔형 하드웨어 초기화 CSU 유스케이스)"
+											"text": "(from 이동형 하드웨어 초기화 CSU 유스케이스)"
 										},
 										{
 											"_type": "LabelView",
@@ -4103,12 +4103,496 @@
 							},
 							"font": "Arial;16;0",
 							"parentStyle": false,
-							"left": 296,
-							"top": 608,
-							"width": 416,
+							"left": 304,
+							"top": 664,
+							"width": 408,
 							"height": 28,
-							"text": "콘솔형 하드웨어 초기화 CSU 유스 케이스",
+							"text": "이동형 하드웨어 초기화 CSU 유스 케이스",
 							"horzAlign": 2
+						},
+						{
+							"_type": "UMLUseCaseView",
+							"_id": "AAAAAAGT+/EWB4G3qZM=",
+							"_parent": {
+								"$ref": "AAAAAAGT7P+qkfKtYNo="
+							},
+							"model": {
+								"$ref": "AAAAAAGT+/EWB4G1zQk="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGT+/EWCIG49oo=",
+									"_parent": {
+										"$ref": "AAAAAAGT+/EWB4G3qZM="
+									},
+									"model": {
+										"$ref": "AAAAAAGT+/EWB4G1zQk="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGT+/EWCIG5qDc=",
+											"_parent": {
+												"$ref": "AAAAAAGT+/EWCIG49oo="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"top": -16,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGT+/EWCIG6OPk=",
+											"_parent": {
+												"$ref": "AAAAAAGT+/EWCIG49oo="
+											},
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 449.5,
+											"top": 594.5,
+											"width": 125,
+											"height": 13,
+											"text": "배터리 게이지 초기화"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGT+/EWCIG7K10=",
+											"_parent": {
+												"$ref": "AAAAAAGT+/EWCIG49oo="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"top": -16,
+											"width": 277.97021484375,
+											"height": 13,
+											"text": "(from 이동형 하드웨어 초기화 CSU 유스케이스)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGT+/EWCIG8V5o=",
+											"_parent": {
+												"$ref": "AAAAAAGT+/EWCIG49oo="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"top": -16,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 444.5,
+									"top": 587.5,
+									"width": 135,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGT+/EWCIG5qDc="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGT+/EWCIG6OPk="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGT+/EWCIG7K10="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGT+/EWCIG8V5o="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGT+/EWCIG9tvw=",
+									"_parent": {
+										"$ref": "AAAAAAGT+/EWB4G3qZM="
+									},
+									"model": {
+										"$ref": "AAAAAAGT+/EWB4G1zQk="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"top": -8,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGT+/EWCIG+3X4=",
+									"_parent": {
+										"$ref": "AAAAAAGT+/EWB4G3qZM="
+									},
+									"model": {
+										"$ref": "AAAAAAGT+/EWB4G1zQk="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"top": -8,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGT+/EWCIG/1VM=",
+									"_parent": {
+										"$ref": "AAAAAAGT+/EWB4G3qZM="
+									},
+									"model": {
+										"$ref": "AAAAAAGT+/EWB4G1zQk="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"top": -8,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGT+/EWCIHAoWA=",
+									"_parent": {
+										"$ref": "AAAAAAGT+/EWB4G3qZM="
+									},
+									"model": {
+										"$ref": "AAAAAAGT+/EWB4G1zQk="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"top": -8,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLExtensionPointCompartmentView",
+									"_id": "AAAAAAGT+/EWCIHB1jE=",
+									"_parent": {
+										"$ref": "AAAAAAGT+/EWB4G3qZM="
+									},
+									"model": {
+										"$ref": "AAAAAAGT+/EWB4G1zQk="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"top": -8,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"containerChangeable": true,
+							"left": 416,
+							"top": 576,
+							"width": 192,
+							"height": 48,
+							"nameCompartment": {
+								"$ref": "AAAAAAGT+/EWCIG49oo="
+							},
+							"suppressAttributes": true,
+							"suppressOperations": true,
+							"attributeCompartment": {
+								"$ref": "AAAAAAGT+/EWCIG9tvw="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGT+/EWCIG+3X4="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGT+/EWCIG/1VM="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGT+/EWCIHAoWA="
+							},
+							"extensionPointCompartment": {
+								"$ref": "AAAAAAGT+/EWCIHB1jE="
+							}
+						},
+						{
+							"_type": "UMLAssociationView",
+							"_id": "AAAAAAGT+/GilYtuwqM=",
+							"_parent": {
+								"$ref": "AAAAAAGT7P+qkfKtYNo="
+							},
+							"model": {
+								"$ref": "AAAAAAGT+/GilYtqDQI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGT+/GilYtvXmc=",
+									"_parent": {
+										"$ref": "AAAAAAGT+/GilYtuwqM="
+									},
+									"model": {
+										"$ref": "AAAAAAGT+/GilYtqDQI="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 291,
+									"top": 451,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGT+/GilYtuwqM="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGT+/GilYtwftA=",
+									"_parent": {
+										"$ref": "AAAAAAGT+/GilYtuwqM="
+									},
+									"model": {
+										"$ref": "AAAAAAGT+/GilYtqDQI="
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 298,
+									"top": 438,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGT+/GilYtuwqM="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGT+/GilYtx3VY=",
+									"_parent": {
+										"$ref": "AAAAAAGT+/GilYtuwqM="
+									},
+									"model": {
+										"$ref": "AAAAAAGT+/GilYtqDQI="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 276,
+									"top": 478,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGT+/GilYtuwqM="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGT+/GilYtyvig=",
+									"_parent": {
+										"$ref": "AAAAAAGT+/GilYtuwqM="
+									},
+									"model": {
+										"$ref": "AAAAAAGT+/GilYtr4Jk="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 129,
+									"top": 360,
+									"height": 13,
+									"alpha": 0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGT+/GilYtuwqM="
+									},
+									"edgePosition": 2
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGT+/GilYtza4M=",
+									"_parent": {
+										"$ref": "AAAAAAGT+/GilYtuwqM="
+									},
+									"model": {
+										"$ref": "AAAAAAGT+/GilYtr4Jk="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 138,
+									"top": 350,
+									"height": 13,
+									"alpha": 0.7853981633974483,
+									"distance": 40,
+									"hostEdge": {
+										"$ref": "AAAAAAGT+/GilYtuwqM="
+									},
+									"edgePosition": 2
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGT+/GilYt0bnk=",
+									"_parent": {
+										"$ref": "AAAAAAGT+/GilYtuwqM="
+									},
+									"model": {
+										"$ref": "AAAAAAGT+/GilYtr4Jk="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 112,
+									"top": 382,
+									"height": 13,
+									"alpha": -0.5235987755982988,
+									"distance": 25,
+									"hostEdge": {
+										"$ref": "AAAAAAGT+/GilYtuwqM="
+									},
+									"edgePosition": 2
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGT+/GilYt1iRc=",
+									"_parent": {
+										"$ref": "AAAAAAGT+/GilYtuwqM="
+									},
+									"model": {
+										"$ref": "AAAAAAGT+/GilYts67I="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 452,
+									"top": 543,
+									"height": 13,
+									"alpha": -0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGT+/GilYtuwqM="
+									}
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGT+/GilYt2ygo=",
+									"_parent": {
+										"$ref": "AAAAAAGT+/GilYtuwqM="
+									},
+									"model": {
+										"$ref": "AAAAAAGT+/GilYts67I="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 457,
+									"top": 530,
+									"height": 13,
+									"alpha": -0.7853981633974483,
+									"distance": 40,
+									"hostEdge": {
+										"$ref": "AAAAAAGT+/GilYtuwqM="
+									}
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGT+/GilYt3Cz4=",
+									"_parent": {
+										"$ref": "AAAAAAGT+/GilYtuwqM="
+									},
+									"model": {
+										"$ref": "AAAAAAGT+/GilYts67I="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 443,
+									"top": 569,
+									"height": 13,
+									"alpha": 0.5235987755982988,
+									"distance": 25,
+									"hostEdge": {
+										"$ref": "AAAAAAGT+/GilYtuwqM="
+									}
+								},
+								{
+									"_type": "UMLQualifierCompartmentView",
+									"_id": "AAAAAAGT+/GilYt4JU0=",
+									"_parent": {
+										"$ref": "AAAAAAGT+/GilYtuwqM="
+									},
+									"model": {
+										"$ref": "AAAAAAGT+/GilYtr4Jk="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLQualifierCompartmentView",
+									"_id": "AAAAAAGT+/GilYt51PY=",
+									"_parent": {
+										"$ref": "AAAAAAGT+/GilYtuwqM="
+									},
+									"model": {
+										"$ref": "AAAAAAGT+/GilYts67I="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGT+/EWB4G3qZM="
+							},
+							"tail": {
+								"$ref": "AAAAAAGT7QhNGJXAe18="
+							},
+							"lineStyle": 1,
+							"points": "100:367;468:575",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAGT+/GilYtvXmc="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGT+/GilYtwftA="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGT+/GilYtx3VY="
+							},
+							"showEndOrder": "hide",
+							"tailRoleNameLabel": {
+								"$ref": "AAAAAAGT+/GilYtyvig="
+							},
+							"tailPropertyLabel": {
+								"$ref": "AAAAAAGT+/GilYtza4M="
+							},
+							"tailMultiplicityLabel": {
+								"$ref": "AAAAAAGT+/GilYt0bnk="
+							},
+							"headRoleNameLabel": {
+								"$ref": "AAAAAAGT+/GilYt1iRc="
+							},
+							"headPropertyLabel": {
+								"$ref": "AAAAAAGT+/GilYt2ygo="
+							},
+							"headMultiplicityLabel": {
+								"$ref": "AAAAAAGT+/GilYt3Cz4="
+							},
+							"tailQualifiersCompartment": {
+								"$ref": "AAAAAAGT+/GilYt4JU0="
+							},
+							"headQualifiersCompartment": {
+								"$ref": "AAAAAAGT+/GilYt51PY="
+							}
 						}
 					]
 				},
@@ -4235,6 +4719,33 @@
 								},
 								"reference": {
 									"$ref": "AAAAAAGT7QJQrfPUKuA="
+								}
+							}
+						},
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAGT+/GilYtqDQI=",
+							"_parent": {
+								"$ref": "AAAAAAGT7QhNGJW+WDs="
+							},
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAGT+/GilYtr4Jk=",
+								"_parent": {
+									"$ref": "AAAAAAGT+/GilYtqDQI="
+								},
+								"reference": {
+									"$ref": "AAAAAAGT7QhNGJW+WDs="
+								}
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAGT+/GilYts67I=",
+								"_parent": {
+									"$ref": "AAAAAAGT+/GilYtqDQI="
+								},
+								"reference": {
+									"$ref": "AAAAAAGT+/EWB4G1zQk="
 								}
 							}
 						}
@@ -4425,6 +4936,14 @@
 							}
 						}
 					]
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAGT+/EWB4G1zQk=",
+					"_parent": {
+						"$ref": "AAAAAAGT7P+qkfKsKNM="
+					},
+					"name": "배터리 게이지 초기화"
 				}
 			]
 		}

@@ -1,7 +1,7 @@
 {
 	"_type": "Project",
 	"_id": "AAAAAAFF+h6SjaM2Hec=",
-	"name": "AMDS 콘솔형",
+	"name": "AMDS  이동형",
 	"ownedElements": [
 		{
 			"_type": "UMLModel",
@@ -28,7 +28,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "콘솔형 상태정보 전송  CSU 황동 다이어그램",
+			"name": "이동형 상태정보 전송  CSU 황동 다이어그램",
 			"ownedElements": [
 				{
 					"_type": "UMLActivityDiagram",
@@ -98,7 +98,7 @@
 							"top": 104,
 							"width": 184,
 							"height": 25,
-							"text": "Send_Console_Status()"
+							"text": "Send_Portable_Status()"
 						},
 						{
 							"_type": "UMLTextView",
@@ -112,7 +112,7 @@
 							"top": 328,
 							"width": 384,
 							"height": 28,
-							"text": "콘솔형 상태정보 전송  CSU 황동 다이어그램",
+							"text": "이동형 상태정보 전송  CSU 황동 다이어그램",
 							"horzAlign": 2
 						},
 						{
@@ -175,7 +175,7 @@
 											"top": -352,
 											"width": 295.38818359375,
 											"height": 13,
-											"text": "(from 콘솔형 상태정보 전송  CSU 황동 다이어그램)"
+											"text": "(from 이동형 상태정보 전송  CSU 황동 다이어그램)"
 										},
 										{
 											"_type": "LabelView",

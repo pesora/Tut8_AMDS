@@ -1,7 +1,7 @@
 {
 	"_type": "Project",
 	"_id": "AAAAAAFF+h6SjaM2Hec=",
-	"name": "AMDS 콘솔형",
+	"name": "AMDS 이동형",
 	"ownedElements": [
 		{
 			"_type": "UMLModel",
@@ -28,7 +28,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "콘솔형 펌웨어 CSC 활동 다이어그램",
+			"name": "이동형 펌웨어 CSC 활동 다이어그램",
 			"ownedElements": [
 				{
 					"_type": "UMLActivityDiagram",
@@ -50,7 +50,7 @@
 							"top": 72,
 							"width": 352,
 							"height": 456,
-							"text": "콘솔형 펌웨어 CSC"
+							"text": "이동형 펌웨어 CSC"
 						},
 						{
 							"_type": "UMLActionView",
@@ -110,7 +110,7 @@
 											"top": 16,
 											"width": 251.087890625,
 											"height": 13,
-											"text": "(from 콘솔형 펌웨어 CSC 활동 다이어그램)"
+											"text": "(from 이동형 펌웨어 CSC 활동 다이어그램)"
 										},
 										{
 											"_type": "LabelView",
@@ -213,7 +213,7 @@
 											"parentStyle": true,
 											"width": 251.087890625,
 											"height": 13,
-											"text": "(from 콘솔형 펌웨어 CSC 활동 다이어그램)"
+											"text": "(from 이동형 펌웨어 CSC 활동 다이어그램)"
 										},
 										{
 											"_type": "LabelView",
@@ -315,7 +315,7 @@
 											"parentStyle": true,
 											"width": 251.087890625,
 											"height": 13,
-											"text": "(from 콘솔형 펌웨어 CSC 활동 다이어그램)"
+											"text": "(from 이동형 펌웨어 CSC 활동 다이어그램)"
 										},
 										{
 											"_type": "LabelView",
@@ -417,7 +417,7 @@
 											"parentStyle": true,
 											"width": 251.087890625,
 											"height": 13,
-											"text": "(from 콘솔형 펌웨어 CSC 활동 다이어그램)"
+											"text": "(from 이동형 펌웨어 CSC 활동 다이어그램)"
 										},
 										{
 											"_type": "LabelView",
@@ -521,7 +521,7 @@
 											"top": 32,
 											"width": 251.087890625,
 											"height": 13,
-											"text": "(from 콘솔형 펌웨어 CSC 활동 다이어그램)"
+											"text": "(from 이동형 펌웨어 CSC 활동 다이어그램)"
 										},
 										{
 											"_type": "LabelView",
@@ -1326,7 +1326,7 @@
 							"top": 216,
 							"width": 200,
 							"height": 25,
-							"text": "Collect_Console_Status()"
+							"text": "Collect_Portable_Status()"
 						},
 						{
 							"_type": "UMLTextView",
@@ -1340,7 +1340,7 @@
 							"top": 296,
 							"width": 176,
 							"height": 25,
-							"text": "Display_Console_LED()"
+							"text": "Display_Portable_LED()"
 						},
 						{
 							"_type": "UMLTextView",
@@ -1354,7 +1354,7 @@
 							"top": 376,
 							"width": 176,
 							"height": 25,
-							"text": "Send_Console_Status()"
+							"text": "Send_Portable_Status()"
 						},
 						{
 							"_type": "UMLTextView",
@@ -1483,7 +1483,7 @@
 							"top": 592,
 							"width": 336,
 							"height": 28,
-							"text": "콘솔형 펌웨어 CSC 활동 다이어그램",
+							"text": "이동형 펌웨어 CSC 활동 다이어그램",
 							"horzAlign": 2
 						}
 					]

@@ -1,7 +1,7 @@
 {
 	"_type": "Project",
 	"_id": "AAAAAAFF+h6SjaM2Hec=",
-	"name": "AMDS 콘솔형",
+	"name": "AMDS 이동형",
 	"ownedElements": [
 		{
 			"_type": "UMLModel",
@@ -28,7 +28,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "콘솔형 펌웨어 CSC 구성",
+			"name": "이동형 펌웨어 CSC 구성",
 			"ownedElements": [
 				{
 					"_type": "DFDDiagram",
@@ -50,7 +50,33 @@
 							"subViews": [
 								{
 									"_type": "LabelView",
-									"_id": "AAAAAAGT/H45JyPLCXo=",
+									"_id": "AAAAAAGT/IJ3WbQhyKY=",
+									"_parent": {
+										"$ref": "AAAAAAGT2Ub6lvn7TrM="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 138,
+									"top": 93,
+									"width": 204,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGT/HtX2f7Lz74=",
+									"_parent": {
+										"$ref": "AAAAAAGT2Ub6lvn7TrM="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 138,
+									"top": 93,
+									"width": 204,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGT+7lBmF23ias=",
 									"_parent": {
 										"$ref": "AAAAAAGT2Ub6lvn7TrM="
 									},
@@ -112,7 +138,7 @@
 									"top": 98,
 									"width": 204,
 									"height": 13,
-									"text": "콘솔형 펌웨어 CSC",
+									"text": "이동형 펌웨어 CSC",
 									"wordWrap": true
 								},
 								{
@@ -149,7 +175,33 @@
 							"subViews": [
 								{
 									"_type": "LabelView",
-									"_id": "AAAAAAGT/H45KCPTWH0=",
+									"_id": "AAAAAAGT/IJ3WrQrkrE=",
+									"_parent": {
+										"$ref": "AAAAAAGT2UjnnPpuyNg="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 250,
+									"top": 181,
+									"width": 172,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGT/HtX2f7UIdU=",
+									"_parent": {
+										"$ref": "AAAAAAGT2UjnnPpuyNg="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 250,
+									"top": 181,
+									"width": 172,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGT+7lBmF2/w/Y=",
 									"_parent": {
 										"$ref": "AAAAAAGT2UjnnPpuyNg="
 									},
@@ -223,7 +275,33 @@
 							"subViews": [
 								{
 									"_type": "LabelView",
-									"_id": "AAAAAAGT/H45KCPZ3kQ=",
+									"_id": "AAAAAAGT/IJ3WrQzd0c=",
+									"_parent": {
+										"$ref": "AAAAAAGT2UkMJPp5Ctw="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 250,
+									"top": 245,
+									"width": 172,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGT/HtX2v7boG0=",
+									"_parent": {
+										"$ref": "AAAAAAGT2UkMJPp5Ctw="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 250,
+									"top": 245,
+									"width": 172,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGT+7lBmF3F0Ik=",
 									"_parent": {
 										"$ref": "AAAAAAGT2UkMJPp5Ctw="
 									},
@@ -297,7 +375,33 @@
 							"subViews": [
 								{
 									"_type": "LabelView",
-									"_id": "AAAAAAGT/H45KCPfqyc=",
+									"_id": "AAAAAAGT/IJ3WrQ7YV0=",
+									"_parent": {
+										"$ref": "AAAAAAGT2UlwH/qGvlA="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 250,
+									"top": 309,
+									"width": 172,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGT/HtX2v7iX7c=",
+									"_parent": {
+										"$ref": "AAAAAAGT2UlwH/qGvlA="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 250,
+									"top": 309,
+									"width": 172,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGT+7lBmV3LIPM=",
 									"_parent": {
 										"$ref": "AAAAAAGT2UlwH/qGvlA="
 									},
@@ -371,7 +475,33 @@
 							"subViews": [
 								{
 									"_type": "LabelView",
-									"_id": "AAAAAAGT/H45KCPl2N0=",
+									"_id": "AAAAAAGT/IJ3W7RDzrE=",
+									"_parent": {
+										"$ref": "AAAAAAGT2UmGAfqRV3I="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 250,
+									"top": 373,
+									"width": 172,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGT/HtX2v7pr98=",
+									"_parent": {
+										"$ref": "AAAAAAGT2UmGAfqRV3I="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 250,
+									"top": 373,
+									"width": 172,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGT+7lBmV3RWkI=",
 									"_parent": {
 										"$ref": "AAAAAAGT2UmGAfqRV3I="
 									},
@@ -456,7 +586,33 @@
 							"subViews": [
 								{
 									"_type": "LabelView",
-									"_id": "AAAAAAGT/H45KCPs3Lg=",
+									"_id": "AAAAAAGT/IJ3W7RMsLc=",
+									"_parent": {
+										"$ref": "AAAAAAGT2UpktPqkJhw="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 250,
+									"top": 437,
+									"width": 172,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGT/HtX2v7xunc=",
+									"_parent": {
+										"$ref": "AAAAAAGT2UpktPqkJhw="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 250,
+									"top": 437,
+									"width": 172,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGT+7lBmV3YnjY=",
 									"_parent": {
 										"$ref": "AAAAAAGT2UpktPqkJhw="
 									},
@@ -586,7 +742,7 @@
 							"top": 240,
 							"width": 192,
 							"height": 25,
-							"text": "Collect Console Status()"
+							"text": "Collect Portable Status()"
 						},
 						{
 							"_type": "UMLTextView",
@@ -600,7 +756,7 @@
 							"top": 304,
 							"width": 192,
 							"height": 25,
-							"text": "Display_Console_LED()"
+							"text": "Display_PoerVLW_LED()"
 						},
 						{
 							"_type": "UMLTextView",
@@ -614,7 +770,7 @@
 							"top": 368,
 							"width": 176,
 							"height": 25,
-							"text": "Send_Console_Status()"
+							"text": "Send_Portable_Status()"
 						},
 						{
 							"_type": "UMLTextView",
@@ -724,10 +880,10 @@
 							"font": "Arial;16;0",
 							"parentStyle": false,
 							"left": 232,
-							"top": 512,
+							"top": 504,
 							"width": 312,
 							"height": 28,
-							"text": "콘솔형 펌웨어 CSC 구성",
+							"text": "이동형 펌웨어 CSC 구성",
 							"horzAlign": 2
 						}
 					]
@@ -738,7 +894,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGT2Uayyvn0YEw="
 					},
-					"name": "콘솔형 펌웨어 CSC"
+					"name": "이동형 펌웨어 CSC"
 				},
 				{
 					"_type": "DFDExternalEntity",

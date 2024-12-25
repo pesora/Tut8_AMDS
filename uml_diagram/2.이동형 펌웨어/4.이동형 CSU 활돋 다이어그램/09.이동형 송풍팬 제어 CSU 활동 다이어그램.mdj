@@ -1,7 +1,7 @@
 {
 	"_type": "Project",
 	"_id": "AAAAAAFF+h6SjaM2Hec=",
-	"name": "AMDS 콘솔형",
+	"name": "AMDS  이동형",
 	"ownedElements": [
 		{
 			"_type": "UMLModel",
@@ -28,7 +28,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "콘솔형 송풍팬 제어  CSU 황동 다이어그램",
+			"name": "이동형 송풍팬 제어  CSU 황동 다이어그램",
 			"ownedElements": [
 				{
 					"_type": "UMLActivityDiagram",
@@ -122,11 +122,11 @@
 							},
 							"font": "Arial;16;0",
 							"parentStyle": false,
-							"left": 312,
-							"top": 536,
+							"left": 296,
+							"top": 528,
 							"width": 384,
 							"height": 28,
-							"text": "콘솔형 송풍팬 제어  CSU 황동 다이어그램",
+							"text": "이동형 송풍팬 제어  CSU 황동 다이어그램",
 							"horzAlign": 2
 						},
 						{
@@ -189,7 +189,7 @@
 											"top": -96,
 											"width": 282.38818359375,
 											"height": 13,
-											"text": "(from 콘솔형 송풍팬 제어  CSU 황동 다이어그램)"
+											"text": "(from 이동형 송풍팬 제어  CSU 황동 다이어그램)"
 										},
 										{
 											"_type": "LabelView",
@@ -346,7 +346,7 @@
 											"top": -608,
 											"width": 282.38818359375,
 											"height": 13,
-											"text": "(from 콘솔형 송풍팬 제어  CSU 황동 다이어그램)"
+											"text": "(from 이동형 송풍팬 제어  CSU 황동 다이어그램)"
 										},
 										{
 											"_type": "LabelView",
@@ -486,7 +486,7 @@
 											"top": -736,
 											"width": 282.38818359375,
 											"height": 13,
-											"text": "(from 콘솔형 송풍팬 제어  CSU 황동 다이어그램)"
+											"text": "(from 이동형 송풍팬 제어  CSU 황동 다이어그램)"
 										},
 										{
 											"_type": "LabelView",
@@ -1163,7 +1163,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 607,
+									"left": 603,
 									"top": 385,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -1185,7 +1185,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 607,
+									"left": 603,
 									"top": 400,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -1207,7 +1207,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 608,
+									"left": 604,
 									"top": 355,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -1227,7 +1227,7 @@
 								"$ref": "AAAAAAGT+4os1K7X7mY="
 							},
 							"lineStyle": 2,
-							"points": "720:336;720:376;496:376;496:488",
+							"points": "712:336;712:376;496:376;496:488",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGT+49bX6/BquY="

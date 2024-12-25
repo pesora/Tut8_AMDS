@@ -1,7 +1,7 @@
 {
 	"_type": "Project",
 	"_id": "AAAAAAFF+h6SjaM2Hec=",
-	"name": "AMDS 콘솔형",
+	"name": "AMDS  이동형",
 	"ownedElements": [
 		{
 			"_type": "UMLModel",
@@ -28,7 +28,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "콘솔형 상태정보 전송 CSU 유스케이스",
+			"name": "이동형  상태정보 전송 CSU 유스케이스",
 			"ownedElements": [
 				{
 					"_type": "UMLUseCaseDiagram",
@@ -96,9 +96,9 @@
 											"parentStyle": true,
 											"left": -560,
 											"top": -208,
-											"width": 264.97021484375,
+											"width": 269.54052734375,
 											"height": 13,
-											"text": "(from 콘솔형 상태정보 전송 CSU 유스케이스)"
+											"text": "(from 이동형  상태정보 전송 CSU 유스케이스)"
 										},
 										{
 											"_type": "LabelView",
@@ -306,9 +306,9 @@
 											"parentStyle": true,
 											"left": -400,
 											"top": -448,
-											"width": 264.97021484375,
+											"width": 269.54052734375,
 											"height": 13,
-											"text": "(from 콘솔형 상태정보 전송 CSU 유스케이스)"
+											"text": "(from 이동형  상태정보 전송 CSU 유스케이스)"
 										},
 										{
 											"_type": "LabelView",
@@ -413,9 +413,9 @@
 											"parentStyle": true,
 											"left": -384,
 											"top": -256,
-											"width": 264.97021484375,
+											"width": 269.54052734375,
 											"height": 13,
-											"text": "(from 콘솔형 상태정보 전송 CSU 유스케이스)"
+											"text": "(from 이동형  상태정보 전송 CSU 유스케이스)"
 										},
 										{
 											"_type": "LabelView",
@@ -603,9 +603,9 @@
 											"parentStyle": true,
 											"left": -32,
 											"top": -256,
-											"width": 264.97021484375,
+											"width": 269.54052734375,
 											"height": 13,
-											"text": "(from 콘솔형 상태정보 전송 CSU 유스케이스)"
+											"text": "(from 이동형  상태정보 전송 CSU 유스케이스)"
 										},
 										{
 											"_type": "LabelView",
@@ -747,7 +747,7 @@
 							"top": 376,
 							"width": 424,
 							"height": 28,
-							"text": "콘솔형 송풍팬 제어 CSU 유스케이스",
+							"text": "이동형 송풍팬 제어 CSU 유스케이스",
 							"horzAlign": 2
 						},
 						{
@@ -1094,9 +1094,9 @@
 											"parentStyle": true,
 											"left": 368,
 											"top": -480,
-											"width": 264.97021484375,
+											"width": 269.54052734375,
 											"height": 13,
-											"text": "(from 콘솔형 상태정보 전송 CSU 유스케이스)"
+											"text": "(from 이동형  상태정보 전송 CSU 유스케이스)"
 										},
 										{
 											"_type": "LabelView",
@@ -1304,9 +1304,9 @@
 											"parentStyle": true,
 											"left": 368,
 											"top": -448,
-											"width": 264.97021484375,
+											"width": 269.54052734375,
 											"height": 13,
-											"text": "(from 콘솔형 상태정보 전송 CSU 유스케이스)"
+											"text": "(from 이동형  상태정보 전송 CSU 유스케이스)"
 										},
 										{
 											"_type": "LabelView",
@@ -1514,9 +1514,9 @@
 											"parentStyle": true,
 											"left": 368,
 											"top": -416,
-											"width": 264.97021484375,
+											"width": 269.54052734375,
 											"height": 13,
-											"text": "(from 콘솔형 상태정보 전송 CSU 유스케이스)"
+											"text": "(from 이동형  상태정보 전송 CSU 유스케이스)"
 										},
 										{
 											"_type": "LabelView",

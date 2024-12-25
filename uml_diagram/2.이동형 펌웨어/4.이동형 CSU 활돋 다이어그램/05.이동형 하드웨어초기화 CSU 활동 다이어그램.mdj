@@ -1,7 +1,7 @@
 {
 	"_type": "Project",
 	"_id": "AAAAAAFF+h6SjaM2Hec=",
-	"name": "AMDS 콘솔형",
+	"name": "AMDS  이동형",
 	"ownedElements": [
 		{
 			"_type": "UMLModel",
@@ -28,7 +28,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "콘솔형 하드웨어 초기화 CSU 황동 다이어그램",
+			"name": "이동형 하드웨어 초기화 CSU 황동 다이어그램",
 			"ownedElements": [
 				{
 					"_type": "UMLActivityDiagram",
@@ -49,7 +49,7 @@
 							"left": 104,
 							"top": 96,
 							"width": 368,
-							"height": 616,
+							"height": 648,
 							"text": "하드웨어 초기화 CSU"
 						},
 						{
@@ -172,7 +172,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 302,
-									"top": 213,
+									"top": 209,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -194,7 +194,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 317,
-									"top": 213,
+									"top": 209,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -216,7 +216,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 273,
-									"top": 214,
+									"top": 210,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -234,7 +234,7 @@
 							"tail": {
 								"$ref": "AAAAAAGT+MMPXOD+WGM="
 							},
-							"points": "288:201;288:240",
+							"points": "288:201;288:232",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGT+Mcl2+HdTuU="
@@ -269,7 +269,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 302,
-									"top": 293,
+									"top": 281,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -291,7 +291,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 317,
-									"top": 293,
+									"top": 281,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -313,7 +313,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 273,
-									"top": 294,
+									"top": 282,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -331,7 +331,7 @@
 							"tail": {
 								"$ref": "AAAAAAGT+MOcLeEcW00="
 							},
-							"points": "288:281;288:320",
+							"points": "288:273;288:304",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGT+Mc+C+HuEeQ="
@@ -366,7 +366,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 302,
-									"top": 373,
+									"top": 353,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -388,7 +388,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 317,
-									"top": 373,
+									"top": 353,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -410,7 +410,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 273,
-									"top": 374,
+									"top": 354,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -428,7 +428,7 @@
 							"tail": {
 								"$ref": "AAAAAAGT+MPze+E3NYk="
 							},
-							"points": "288:361;288:400",
+							"points": "288:345;288:376",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGT+MdJneH/XGo="
@@ -463,7 +463,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 302,
-									"top": 453,
+									"top": 425,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -485,7 +485,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 317,
-									"top": 453,
+									"top": 425,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -507,7 +507,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 273,
-									"top": 454,
+									"top": 426,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -525,7 +525,7 @@
 							"tail": {
 								"$ref": "AAAAAAGT+MQeseFSRoA="
 							},
-							"points": "288:441;288:480",
+							"points": "288:417;288:448",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGT+MdVR+IQJZA="
@@ -560,7 +560,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 302,
-									"top": 533,
+									"top": 497,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -582,7 +582,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 317,
-									"top": 533,
+									"top": 497,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -604,7 +604,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 273,
-									"top": 534,
+									"top": 498,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -622,7 +622,7 @@
 							"tail": {
 								"$ref": "AAAAAAGT+MRgD+Fr0lU="
 							},
-							"points": "288:521;288:560",
+							"points": "288:489;288:520",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGT+MdhX+Ihp8I="
@@ -657,7 +657,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 301,
-									"top": 613,
+									"top": 573,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -679,7 +679,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 316,
-									"top": 613,
+									"top": 573,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -701,7 +701,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 272,
-									"top": 614,
+									"top": 574,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -719,7 +719,7 @@
 							"tail": {
 								"$ref": "AAAAAAGT+MSfB+GEQWo="
 							},
-							"points": "287:601;287:640",
+							"points": "287:561;287:600",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGT+MduLeIyhyw="
@@ -791,7 +791,7 @@
 											"top": 128,
 											"width": 304.7763671875,
 											"height": 13,
-											"text": "(from 콘솔형 하드웨어 초기화 CSU 황동 다이어그램)"
+											"text": "(from 이동형 하드웨어 초기화 CSU 황동 다이어그램)"
 										},
 										{
 											"_type": "LabelView",
@@ -868,6 +868,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": true,
+											"top": -16,
 											"height": 13
 										},
 										{
@@ -879,7 +880,7 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"left": 197,
-											"top": 247,
+											"top": 239,
 											"width": 183,
 											"height": 13,
 											"text": "클럭 설정"
@@ -893,9 +894,10 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": true,
+											"top": -16,
 											"width": 304.7763671875,
 											"height": 13,
-											"text": "(from 콘솔형 하드웨어 초기화 CSU 황동 다이어그램)"
+											"text": "(from 이동형 하드웨어 초기화 CSU 황동 다이어그램)"
 										},
 										{
 											"_type": "LabelView",
@@ -906,6 +908,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": true,
+											"top": -16,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
@@ -913,7 +916,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 192,
-									"top": 240,
+									"top": 232,
 									"width": 193,
 									"height": 25,
 									"stereotypeLabel": {
@@ -934,7 +937,7 @@
 							"parentStyle": false,
 							"containerChangeable": true,
 							"left": 192,
-							"top": 240,
+							"top": 232,
 							"width": 192,
 							"height": 41,
 							"nameCompartment": {
@@ -970,6 +973,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": true,
+											"top": -32,
 											"height": 13
 										},
 										{
@@ -981,7 +985,7 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"left": 197,
-											"top": 327,
+											"top": 311,
 											"width": 183,
 											"height": 13,
 											"text": "GPIO 핀 초기화"
@@ -995,9 +999,10 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": true,
+											"top": -32,
 											"width": 304.7763671875,
 											"height": 13,
-											"text": "(from 콘솔형 하드웨어 초기화 CSU 황동 다이어그램)"
+											"text": "(from 이동형 하드웨어 초기화 CSU 황동 다이어그램)"
 										},
 										{
 											"_type": "LabelView",
@@ -1008,6 +1013,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": true,
+											"top": -32,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
@@ -1015,7 +1021,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 192,
-									"top": 320,
+									"top": 304,
 									"width": 193,
 									"height": 25,
 									"stereotypeLabel": {
@@ -1036,7 +1042,7 @@
 							"parentStyle": false,
 							"containerChangeable": true,
 							"left": 192,
-							"top": 320,
+							"top": 304,
 							"width": 192,
 							"height": 41,
 							"nameCompartment": {
@@ -1072,6 +1078,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": true,
+											"top": -48,
 											"height": 13
 										},
 										{
@@ -1083,7 +1090,7 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"left": 197,
-											"top": 407,
+											"top": 383,
 											"width": 183,
 											"height": 13,
 											"text": "Ejtermet 초기화"
@@ -1097,9 +1104,10 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": true,
+											"top": -48,
 											"width": 304.7763671875,
 											"height": 13,
-											"text": "(from 콘솔형 하드웨어 초기화 CSU 황동 다이어그램)"
+											"text": "(from 이동형 하드웨어 초기화 CSU 황동 다이어그램)"
 										},
 										{
 											"_type": "LabelView",
@@ -1110,6 +1118,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": true,
+											"top": -48,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
@@ -1117,7 +1126,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 192,
-									"top": 400,
+									"top": 376,
 									"width": 193,
 									"height": 25,
 									"stereotypeLabel": {
@@ -1138,7 +1147,7 @@
 							"parentStyle": false,
 							"containerChangeable": true,
 							"left": 192,
-							"top": 400,
+							"top": 376,
 							"width": 192,
 							"height": 41,
 							"nameCompartment": {
@@ -1174,6 +1183,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": true,
+											"top": -64,
 											"height": 13
 										},
 										{
@@ -1185,7 +1195,7 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"left": 197,
-											"top": 487,
+											"top": 455,
 											"width": 183,
 											"height": 13,
 											"text": "타이머 초기화"
@@ -1199,9 +1209,10 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": true,
+											"top": -64,
 											"width": 304.7763671875,
 											"height": 13,
-											"text": "(from 콘솔형 하드웨어 초기화 CSU 황동 다이어그램)"
+											"text": "(from 이동형 하드웨어 초기화 CSU 황동 다이어그램)"
 										},
 										{
 											"_type": "LabelView",
@@ -1212,6 +1223,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": true,
+											"top": -64,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
@@ -1219,7 +1231,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 192,
-									"top": 480,
+									"top": 448,
 									"width": 193,
 									"height": 25,
 									"stereotypeLabel": {
@@ -1240,7 +1252,7 @@
 							"parentStyle": false,
 							"containerChangeable": true,
 							"left": 192,
-							"top": 480,
+							"top": 448,
 							"width": 192,
 							"height": 41,
 							"nameCompartment": {
@@ -1276,6 +1288,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": true,
+											"top": -80,
 											"height": 13
 										},
 										{
@@ -1287,7 +1300,7 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"left": 197,
-											"top": 567,
+											"top": 527,
 											"width": 183,
 											"height": 13,
 											"text": "온도센서 초기화"
@@ -1301,9 +1314,10 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": true,
+											"top": -80,
 											"width": 304.7763671875,
 											"height": 13,
-											"text": "(from 콘솔형 하드웨어 초기화 CSU 황동 다이어그램)"
+											"text": "(from 이동형 하드웨어 초기화 CSU 황동 다이어그램)"
 										},
 										{
 											"_type": "LabelView",
@@ -1314,6 +1328,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": true,
+											"top": -80,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
@@ -1321,7 +1336,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 192,
-									"top": 560,
+									"top": 520,
 									"width": 193,
 									"height": 25,
 									"stereotypeLabel": {
@@ -1342,7 +1357,7 @@
 							"parentStyle": false,
 							"containerChangeable": true,
 							"left": 192,
-							"top": 560,
+							"top": 520,
 							"width": 192,
 							"height": 41,
 							"nameCompartment": {
@@ -1378,6 +1393,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": true,
+											"top": -80,
 											"height": 13
 										},
 										{
@@ -1389,7 +1405,7 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"left": 189,
-											"top": 647,
+											"top": 607,
 											"width": 191,
 											"height": 13,
 											"text": "송풍팬 초기화"
@@ -1403,9 +1419,10 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": true,
+											"top": -80,
 											"width": 304.7763671875,
 											"height": 13,
-											"text": "(from 콘솔형 하드웨어 초기화 CSU 황동 다이어그램)"
+											"text": "(from 이동형 하드웨어 초기화 CSU 황동 다이어그램)"
 										},
 										{
 											"_type": "LabelView",
@@ -1416,6 +1433,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": true,
+											"top": -80,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
@@ -1423,7 +1441,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 184,
-									"top": 640,
+									"top": 600,
 									"width": 201,
 									"height": 25,
 									"stereotypeLabel": {
@@ -1444,7 +1462,7 @@
 							"parentStyle": false,
 							"containerChangeable": true,
 							"left": 184,
-							"top": 640,
+							"top": 600,
 							"width": 200,
 							"height": 41,
 							"nameCompartment": {
@@ -1481,7 +1499,7 @@
 							"parentStyle": false,
 							"containerChangeable": true,
 							"left": 264,
-							"top": 752,
+							"top": 792,
 							"width": 26,
 							"height": 26
 						},
@@ -1570,7 +1588,7 @@
 							"tail": {
 								"$ref": "AAAAAAGT+MTGY+GewHY="
 							},
-							"points": "280:681;280:752",
+							"points": "280:641;280:792",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGT+MieceJoS+4="
@@ -1617,11 +1635,11 @@
 							},
 							"font": "Arial;16;0",
 							"parentStyle": false,
-							"left": 96,
-							"top": 800,
+							"left": 120,
+							"top": 824,
 							"width": 360,
 							"height": 28,
-							"text": "콘솔형 하드웨어 초기화 CSU 활동 다이어그램"
+							"text": "이동형 하드웨어 초기화 CSU 활동 다이어그램"
 						},
 						{
 							"_type": "UMLNoteLinkView",
@@ -1638,6 +1656,111 @@
 								"$ref": "AAAAAAGT+Mf68eJCUL8="
 							},
 							"points": "472:104;512:104"
+						},
+						{
+							"_type": "UMLActionView",
+							"_id": "AAAAAAGT/EkIX9FDDO4=",
+							"_parent": {
+								"$ref": "AAAAAAGT+MIYTuD2RMI="
+							},
+							"model": {
+								"$ref": "AAAAAAGT/EkIXtFBI/I="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGT/EkIX9FEFzI=",
+									"_parent": {
+										"$ref": "AAAAAAGT/EkIX9FDDO4="
+									},
+									"model": {
+										"$ref": "AAAAAAGT/EkIXtFBI/I="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGT/EkIX9FFXTA=",
+											"_parent": {
+												"$ref": "AAAAAAGT/EkIX9FEFzI="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"top": -64,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGT/EkIX9FG6EQ=",
+											"_parent": {
+												"$ref": "AAAAAAGT/EkIX9FEFzI="
+											},
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 189,
+											"top": 679,
+											"width": 191,
+											"height": 13,
+											"text": "배터리 게이지 초기화"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGT/EkIX9FHYk4=",
+											"_parent": {
+												"$ref": "AAAAAAGT/EkIX9FEFzI="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"top": -64,
+											"width": 304.7763671875,
+											"height": 13,
+											"text": "(from 이동형 하드웨어 초기화 CSU 황동 다이어그램)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGT/EkIX9FIOYQ=",
+											"_parent": {
+												"$ref": "AAAAAAGT/EkIX9FEFzI="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"top": -64,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 184,
+									"top": 672,
+									"width": 201,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGT/EkIX9FFXTA="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGT/EkIX9FG6EQ="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGT/EkIX9FHYk4="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGT/EkIX9FIOYQ="
+									}
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"containerChangeable": true,
+							"left": 184,
+							"top": 672,
+							"width": 200,
+							"height": 41,
+							"nameCompartment": {
+								"$ref": "AAAAAAGT/EkIX9FEFzI="
+							}
 						}
 					]
 				}
@@ -1714,6 +1837,14 @@
 						"$ref": "AAAAAAGT+MIYTuD1b5s="
 					},
 					"name": "ActivityFinalNode1"
+				},
+				{
+					"_type": "UMLAction",
+					"_id": "AAAAAAGT/EkIXtFBI/I=",
+					"_parent": {
+						"$ref": "AAAAAAGT+MIYTuD1b5s="
+					},
+					"name": "배터리 게이지 초기화"
 				}
 			],
 			"edges": [

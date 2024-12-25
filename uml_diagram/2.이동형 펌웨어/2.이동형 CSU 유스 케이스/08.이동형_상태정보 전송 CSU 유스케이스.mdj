@@ -1,7 +1,7 @@
 {
 	"_type": "Project",
 	"_id": "AAAAAAFF+h6SjaM2Hec=",
-	"name": "AMDS 콘솔형",
+	"name": "AMDS 이동형",
 	"ownedElements": [
 		{
 			"_type": "UMLModel",
@@ -28,7 +28,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "콘솔형 상태정보 전송 CSU 유스케이스",
+			"name": "이동형 상태정보 전송 CSU 유스케이스",
 			"ownedElements": [
 				{
 					"_type": "UMLUseCaseDiagram",
@@ -98,7 +98,7 @@
 											"top": -256,
 											"width": 264.97021484375,
 											"height": 13,
-											"text": "(from 콘솔형 상태정보 전송 CSU 유스케이스)"
+											"text": "(from 이동형 상태정보 전송 CSU 유스케이스)"
 										},
 										{
 											"_type": "LabelView",
@@ -308,7 +308,7 @@
 											"top": -256,
 											"width": 264.97021484375,
 											"height": 13,
-											"text": "(from 콘솔형 상태정보 전송 CSU 유스케이스)"
+											"text": "(from 이동형 상태정보 전송 CSU 유스케이스)"
 										},
 										{
 											"_type": "LabelView",
@@ -415,7 +415,7 @@
 											"top": -304,
 											"width": 264.97021484375,
 											"height": 13,
-											"text": "(from 콘솔형 상태정보 전송 CSU 유스케이스)"
+											"text": "(from 이동형 상태정보 전송 CSU 유스케이스)"
 										},
 										{
 											"_type": "LabelView",
@@ -605,7 +605,7 @@
 											"top": -304,
 											"width": 264.97021484375,
 											"height": 13,
-											"text": "(from 콘솔형 상태정보 전송 CSU 유스케이스)"
+											"text": "(from 이동형 상태정보 전송 CSU 유스케이스)"
 										},
 										{
 											"_type": "LabelView",
@@ -747,7 +747,7 @@
 							"top": 280,
 							"width": 424,
 							"height": 28,
-							"text": "콘솔형 상태정보 전송 CSU 유스케이스",
+							"text": "이동형 상태정보 전송 CSU 유스케이스",
 							"horzAlign": 2
 						},
 						{
