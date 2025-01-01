@@ -12,9 +12,9 @@ typedef struct {
 	uint16_t Prefix;		//0xAABB
 
 	//Header
-	uint8_t Sender;
-	uint8_t Receiver;
-	uint16_t Command;
+	uint8_t Sender;			//0x0010
+	uint8_t Receiver;		//0x0020
+	uint16_t Command;		//0x0001
 	uint32_t Count;
 	uint16_t Size;
 
