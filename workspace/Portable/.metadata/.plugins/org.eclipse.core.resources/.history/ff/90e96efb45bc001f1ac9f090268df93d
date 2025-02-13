@@ -1,7 +1,0 @@
-../Lib/buzzer.c:16:6:Buzzer_Init	8	static
-../Lib/buzzer.c:21:6:Buzzer_On	8	static
-../Lib/buzzer.c:26:6:Buzzer_Off	8	static
-../Lib/buzzer.c:35:6:PwmBuzzer_Init	8	static
-../Lib/buzzer.c:40:6:PwmBuzzer_On	8	static
-../Lib/buzzer.c:45:6:PwmBuzzer_Off	8	static
-../Lib/buzzer.c:50:6:Set_Buzzer_Frequency	40	static

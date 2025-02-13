@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;C104.AMDS_Console_TempStatus_with_avg_value/C103.AMDS_Console_Renaming_variable_name.ioc&apos; to &apos;C104.AMDS_Console_TempStatus_with_avg_value.ioc&apos;" description="Rename resource &apos;C103.AMDS_Console_Renaming_variable_name.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="C103.AMDS_Console_Renaming_variable_name.ioc" name="C104.AMDS_Console_TempStatus_with_avg_value.ioc" stamp="1733743506171" updateReferences="false"/>
-</session>

@@ -1,4 +1,0 @@
-../User/process.c:39:6:Process_Init	4	static
-../User/process.c:48:6:Process_Console_Status	8	static
-../User/process.c:72:13:Collect_Portable_Status	8	static
-../User/process.c:90:13:Display_Portable_LED	8	static

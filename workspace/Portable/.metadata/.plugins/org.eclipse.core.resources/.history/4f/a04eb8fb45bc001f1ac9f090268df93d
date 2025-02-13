@@ -1,4 +1,0 @@
-../User/uart_comm.c:28:6:Uart_Init	2
-../User/uart_comm.c:35:6:switchUart	1
-../User/uart_comm.c:40:6:UART_Flush	2
-../User/uart_comm.c:48:6:HAL_UART_RxCpltCallback	5

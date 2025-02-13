@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;P110A.AMDS_Portable_2-Fan_Control_9GA0812P4G2/P110.AMDS_Portable_2-Fan_Control_9GA0812P4G001.ioc&apos; to &apos;P110A.AMDS_Portable_2-Fan_Control_9GA0812P4G2.ioc&apos;" description="Rename resource &apos;P110.AMDS_Portable_2-Fan_Control_9GA0812P4G001.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="P110.AMDS_Portable_2-Fan_Control_9GA0812P4G001.ioc" name="P110A.AMDS_Portable_2-Fan_Control_9GA0812P4G2.ioc" stamp="1734419311542" updateReferences="true"/>
-</session>

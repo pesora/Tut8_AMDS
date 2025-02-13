@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;C105A.AMDS_Console_6-Fan_9GV1224P1H/C105.AMDS_Console_Fan_9GV1224P1H01.ioc&apos; to &apos;C105A.AMDS_Console_6-Fan_9GV1224P1H.ioc&apos;" description="Rename resource &apos;C105.AMDS_Console_Fan_9GV1224P1H01.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="C105.AMDS_Console_Fan_9GV1224P1H01.ioc" name="C105A.AMDS_Console_6-Fan_9GV1224P1H.ioc" stamp="1734603147237" updateReferences="true"/>
-</session>

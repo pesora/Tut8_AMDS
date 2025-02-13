@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;C101.AMDS_Console_first_creation_on_Prototype_Board/C101.AMDS_Console_first_creation_on_Prototype_Board.ioc&apos; to &apos;C102.AMDS_Console_UAB_Switch_added.ioc&apos;" description="Rename resource &apos;C101.AMDS_Console_first_creation_on_Prototype_Board.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="C101.AMDS_Console_first_creation_on_Prototype_Board.ioc" name="C102.AMDS_Console_UAB_Switch_added.ioc" stamp="1733732538374" updateReferences="false"/>
-</session>
